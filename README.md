@@ -116,4 +116,4 @@ has a a contact form for booking or inquiries. Below there is a section with gen
 
 **Wireframes:**
 
-link to wireframes
+link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/documents/Wireframes%20MSP1.pdf)  

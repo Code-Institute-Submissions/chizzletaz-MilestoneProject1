@@ -14,10 +14,20 @@
 
 /*-------------------------------------------Footer */
 
-.ft-signup {
+.footer-signup {
 
 }
 
-.ft-social-links {
+.footer-social-links {
     
+}
+
+.list-inline-item {
+    background-color: #6c757d;
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    padding: 8px:
+    text-align: center;
 }

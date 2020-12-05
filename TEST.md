@@ -22,8 +22,8 @@ solution: .list-inline-item {
     padding: 7px;
 }
 ---------------------
-goal: postition footer elements to the side till viewport sm. 
-below md position center.
+goal: position footer elements to the side till viewport sm. 
+below sm position footer elements on top of each other.
 .list-inline {
     float: right;
     padding: 50px;

@@ -35,23 +35,37 @@
     font-weight: bolder;
 }
 
+.navbar {
+    font-family: "Montserrat", serif;
+}
 /*-------------------------------------------Main */
 
 .welcome {
+  background-image: url("assets/img/stage.jpg" alt='stage');
   background-color: #fceec2;
-  background-image: url('assets/img/stage.jpg' alt='stage');
   height: 500px;
   width: 100%;
+  margin-top: 50px;
 }
 
 .jumbotron {
   margin: 0 auto;
   text-align: center;
   position: relative;
-  /* top: 10%; */
   width: 40%;
 }
 
+#jumbo-title {
+    font-family: "Montserrat", serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#jumbo-text {
+    font-family: "Crimson Text", sans-serif;
+    font-weight: 16px;
+}
 /*-------------------------------------------Footer */
 
 .list-inline {

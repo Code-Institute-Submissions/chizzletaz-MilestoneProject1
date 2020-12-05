@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
 }
+
 /*-------------------------------------------Colors */
 
 .fb:hover {
@@ -34,14 +35,36 @@
     font-weight: bolder;
 }
 
+/*-------------------------------------------Main */
+
+.welcome {
+  background-color: #fceec2;
+  background-image: url('assets/img/stage.jpg' alt='stage');
+  height: 500px;
+  width: 100%;
+}
+
+.jumbotron {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  /* top: 10%; */
+  width: 40%;
+}
+
 /*-------------------------------------------Footer */
 
 .list-inline {
+    padding-right: 20px;
     margin: 20px auto;
 }
 
 .footer-signup{
     margin: 20px auto;
+}
+
+#btn-footer-signup {
+    border-radius: 0px;
 }
 
 .list-inline-item {

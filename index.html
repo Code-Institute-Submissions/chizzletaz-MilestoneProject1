@@ -45,13 +45,23 @@
       </ul>
     </div>
   </nav>
-  <h1>Be-Sharp</h1>
+  
+  <section class="container-fluid welcome">
+    <h1>Be-Sharp</h1>
+    <div class="jumbotron">
+        <h1 class="display-4">In need of a personalised concert?</h1>
+        <hr class="my-4">
+        <p>Click the button for more information.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Book Us!</a>
+    </div>
+  </section>
+  
 
   <footer class="container-fluid">
     <div class="row">
       <div class="col-12 col-sm-6 float-sm-left footer-signup">
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+        <button type="button" id="btn-footer-signup" class="btn btn-outline-primary" data-toggle="modal" data-target="#staticBackdrop">
           Sign up for our newsletter!
         </button>
       </div>
@@ -93,7 +103,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Sign up for our Newsletter!</h5>
+          <h5 class="modal-title" id="staticBackdropLabel">Join our email list <br>for the latest news and updates.</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -101,26 +111,25 @@
         <div class="modal-body">
           <form>
             <div class="form-row">
+                <p class="mx-auto">Please fill in the form below.</p>
+            </div>
+            <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="fname">First name</label>
-                <input type="text" class="form-control" id="fname">
+                <input type="text" class="form-control" id="fname" required>
               </div>
               <div class="form-group col-md-6">
                 <label for="lname">Last name</label>
-                <input type="text" class="form-control" id="lname">
+                <input type="text" class="form-control" id="lname" required>
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="email">Email Address</label>
-                <input type="email" class="form-control" id="email">
-              </div>
-              <div class="form-group col-md-6">
-                <label for="country">Country</label>
-                <input type="text" class="form-control" id="country">
+                <input type="email" class="form-control" id="email" required>
               </div>
             </div>
-              <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="submit" class="btn btn-primary">Sign Up</button>
           </form>
         </div>
       </div>

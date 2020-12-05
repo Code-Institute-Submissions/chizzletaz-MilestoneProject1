@@ -21,4 +21,23 @@ solution: .list-inline-item {
     width: 40px;
     padding: 7px;
 }
+---------------------
+goal: postition footer elements to the side till viewport sm. 
+below md position center.
+.list-inline {
+    float: right;
+    padding: 50px;
+}
+
+.footer-signup{
+    float: left;
+    padding: 50px;
+}
+issue: the elements don't wrap nicely below viewport sm. 
+trial: use float-sm-right/left and remove float from  (in style.css)
+on inspecting the padding is too large below 760px.
+trial: change padding (of list-inline and footer-signup) to 50px auto.
+Padding auto is no valid value.
+solution: use margin in stead of padding, so: margin: 50px auto.
+----------------
 

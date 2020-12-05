@@ -27,6 +27,7 @@
 
 /*-------------------------------------------Navbar */
 
+
 #logo {
     font-family: "Architects Daughter";
     font-size: 42px;
@@ -35,12 +36,12 @@
 
 /*-------------------------------------------Footer */
 
-.footer-signup {
-
+.list-inline {
+    margin: 20px auto;
 }
 
-.footer-social-links {
-    
+.footer-signup{
+    margin: 20px auto;
 }
 
 .list-inline-item {

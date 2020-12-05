@@ -4,6 +4,26 @@
     margin: 0;
     padding: 0;
 }
+/*-------------------------------------------Colors */
+
+.fb:hover {
+  background-color: #3b5999;
+}
+
+.tw:hover {
+  background-color: #1DA1F2;
+}
+
+.ig:hover {
+    background-color: #7232bd;
+}
+.yt:hover {
+  background-color: #FF0000;
+}
+
+.sp:hover {
+  background-color: #1DB954;
+}
 
 /*-------------------------------------------Navbar */
 
@@ -30,7 +50,7 @@
     text-align: center;
     height: 40px;
     width: 40px;
-    padding: 8px;
+    padding: 7px;
 }
 
 .list-inline-item i {

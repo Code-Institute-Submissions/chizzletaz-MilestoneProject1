@@ -5,7 +5,7 @@ goal: circle border around social media icons:
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    padding: 8px:
+    padding: 7px:
     text-align: center;
 issue: the icons aren't centered: ![uncentered icons](assets/img/test/icon border 1.png)
 trials: put text align after border-radius: ![uncentered icons](assets/img/test/icon border 2.png)
@@ -19,6 +19,6 @@ solution: .list-inline-item {
     text-align: center;
     height: 40px;
     width: 40px;
-    padding: 8px;
+    padding: 7px;
 }
 

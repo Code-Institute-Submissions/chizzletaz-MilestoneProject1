@@ -41,10 +41,12 @@
 /*-------------------------------------------Main */
 
 .welcome {
-  background-image: url("../img/stage.jpg");
+  background-image: url("../img/stage gold.jpeg");
+  background-position: center;
+  background-size: cover;
   background-color: #fceec2;
   height: 500px;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 50px;
 }
 

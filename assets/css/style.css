@@ -54,7 +54,8 @@
   margin: 0 auto;
   text-align: center;
   position: relative;
-  width: 40%;
+  max-width: 400px;
+  background: rgba(204, 204, 204, 0.8);
 }
 
 #jumbo-title {

@@ -57,8 +57,8 @@
   </div>
   
     <section class="concerts">
-    <!-- only displays on viewport < 768px -->
-        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <!-- only displays on viewport smaller than 768px -->
+        <div id="carouselExampleCaptions" class="carousel slide d-md-none" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -70,7 +70,7 @@
         <div class="dark-overlay">
         <div class="concert-item">
             <h2>Christmas Concert</h2>
-            <p>Get in the Christmas mood with our Christmas concert</p>
+            <p>Get in the Christmas mood with our Christmas concert.</p>
             <p><small>24th December 2020 - 20.15h | Amsterdam</small></p>
             <button class="btn-concert" type="button" name="button">Buy Tickets!</button>
         </div>
@@ -82,7 +82,7 @@
         <div class="concert-item">
                     <h2>New Year's Concert</h2>
                     <p>A great way to start the New Year!</p>
-                    <p><small>20th Februari 2021 - 20.15h | Enschede</small></p>
+                    <p><small>1st Januari 2021 - 16.00h | Enschede</small></p>
                     <button class="btn-concert" type="button" name="button">Buy Tickets!</button>
                 </div>
             </div>
@@ -107,9 +107,45 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>       
+    </div>  
     </section>
-
+<!-- only displays on viewport larger than 768px -->
+    <section>
+        <div class="container-fluid concert-items">
+            <div class="row">
+  <div class="col-md-6 col-lg-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Christmas Concert</h5>
+        <p class="card-text">Get in the Christmas mood with our Christmas concert.</p>
+        <p><small>24th December 2020 - 20.15h | Amsterdam</small></p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-4">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">New Year's Concert</h5>
+        <p class="card-text">A great way to start the New Year!</p>
+        <p><small>1st Januari 2021 - 16.00h | Enschede</small></p>
+        <a href="#" class="btn btn-primary">Buy Tickets!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Mozart and co</h5>
+        <p class="card-text">The premiere of our new show!</p>
+        <p><small>20th Februari 2021 - 20.15h | Enschede</small></p>
+        <a href="#" class="btn btn-primary">Buy Tickets!</a>
+      </div>
+    </div>
+  </div>
+</div>
+        </div>
+    </section>
 
   <footer class="container-fluid">
     <div class="row">

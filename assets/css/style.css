@@ -38,15 +38,14 @@
 .navbar {
     font-family: "Montserrat", serif;
 }
-/*-------------------------------------------Main */
-
+/*Main-------------------------------------------Main */
+/*--------------------------------------Jumbotron/Hero image */
 .welcome {
   background-image: url("../img/stage gold.jpeg");
   background-position: center;
   background-size: cover;
   background-color: #fceec2;
   height: 500px;
-  /* width: 100%; */
   margin-top: 50px;
 }
 
@@ -69,6 +68,22 @@
     font-family: "Crimson Text", sans-serif;
     font-weight: 16px;
 }
+/*-------------------------------------------Carousel */
+.dark-overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(47, 79, 79, 0.5);
+}
+
+.concert-item, {
+  width: 80%;
+  position: relative;
+  margin: 10% auto;
+}
+
 /*-------------------------------------------Footer */
 
 .list-inline {

@@ -45,3 +45,12 @@ trial: text-align: center -> doesn't work.
 trial: margin: auto -> doesn't work.
 trial: rename the carousel-caption class to concert-item and wrap everything in a div.
 set the parent div to position: absolute and set position: relative for concert-item.
+doesn't work. 
+TO BE CONTINUED
+------------------
+
+issue: the card heigths aren't equal length. 
+trial: according to bootstrap you should add h-100 to the card.
+This solves the equal length, but the cards are now outside of the container.
+TO BE CONTINUED
+-----------------

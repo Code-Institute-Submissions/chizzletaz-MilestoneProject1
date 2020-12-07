@@ -69,6 +69,10 @@
     font-weight: 16px;
 }
 /*-------------------------------------------Carousel */
+.concerts {
+    background-color: #808080;
+}
+
 .dark-overlay {
   position: absolute;
   left: 0;
@@ -81,7 +85,6 @@
 .concert-item {
     position: relative;
     margin-top: 50px;
-    color: #fff;
 }
 .concert-item h2 {
     font-family: "Montserrat", sans-serif;
@@ -97,8 +100,19 @@
     margin-top: 50px;
 }
 
-.btn-concert {
-    /* margin-top: 50px; */
+.concerts {
+    background-image: url('../img/christmas-background.jpg');
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+ .concert-items {
+     padding-bottom: 40px;
+ }
+.card {
+    background: rgba(47, 79, 79, 0.7);
+    margin: 20px auto;
+    border: 2px solid rgb(47, 79, 79);
 }
 /*-------------------------------------------Footer */
 

@@ -78,12 +78,18 @@
   background: rgba(47, 79, 79, 0.5);
 }
 
-.concert-item, {
-  width: 80%;
-  position: relative;
-  margin: 10% auto;
+.concert-item {
+    position: relative;
+}
+.carousel-caption {
+    /* margin: 0 auto; */
+    position: relative;
+    text-align: center;
 }
 
+.carousel-caption h2, p {
+    text-align: center;
+}
 /*-------------------------------------------Footer */
 
 .list-inline {

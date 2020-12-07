@@ -40,4 +40,8 @@ trial: change padding (of list-inline and footer-signup) to 50px auto.
 Padding auto is no valid value.
 solution: use margin in stead of padding, so: margin: 50px auto.
 ----------------
-
+issue: I want the text of the carousel centered.
+trial: text-align: center -> doesn't work.
+trial: margin: auto -> doesn't work.
+trial: rename the carousel-caption class to concert-item and wrap everything in a div.
+set the parent div to position: absolute and set position: relative for concert-item.

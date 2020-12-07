@@ -14,7 +14,7 @@
     padding-top: 40px;
 }
 /*-------------------------------------------Colors */
-
+ 
 .fb:hover {
   background-color: #3b5999;
 }
@@ -34,6 +34,17 @@
   background-color: #1DB954;
 }
 
+.about-us {
+    background-color: #fceec2;
+}
+
+.our-music {
+    background-color: 
+}
+
+footer, .navbar {
+    background-color: #2f4f4f;
+}
 /*-------------------------------------------Navbar */
 
 
@@ -140,7 +151,21 @@
     margin: 30px 0;
 }
 
+/*-------------------------------------------About Us */
+.about {
+    width: 80%;
+    max-width: 992px;
+    
+}
+
+/*-------------------------------------------Our Music */
+.music {
+    width: 80%;
+    max-width: 992px;
+}
+
 /*-------------------------------------------Footer */
+
 
 .list-inline {
     padding-right: 20px;

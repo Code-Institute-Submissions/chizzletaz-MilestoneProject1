@@ -245,6 +245,34 @@ footer, .navbar {
   padding-top: 20px;
 }
 
+
+.portrait-img2 {
+  background-image: url('../img/portrait2.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 50% 50% 50% 0;
+  padding-top: 20px;
+}
+
+.portrait-img3 {
+  background-image: url('../img/portrait3.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 50% 50% 50% 0;
+  padding-top: 20px;
+}
+
+.portrait-img4 {
+  background-image: url('../img/portrait4.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 50% 50% 50% 0;
+  padding-top: 20px;
+}
+
 .member-text {
     
 }

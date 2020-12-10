@@ -226,7 +226,7 @@ footer, .navbar {
     padding: 5px 50px; 
 }
 
-.portrait {
+.member-portrait {
   width: 200px;
   height: 200px;
   padding: 10px;
@@ -234,7 +234,6 @@ footer, .navbar {
   border-color: #808080;
   border-width: 3px;
   border-radius: 50% 50% 50% 0;
-  margin: 10 auto 0;
 }
 
 .portrait-img1 {
@@ -246,3 +245,6 @@ footer, .navbar {
   padding-top: 20px;
 }
 
+.member-text {
+    
+}

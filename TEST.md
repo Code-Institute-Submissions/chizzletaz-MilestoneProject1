@@ -57,5 +57,9 @@ TO BE CONTINUED
 issue: the back to top button is in the footer area. It needs to be above the footer.
 trial: remove "float: right" -> the button is above the footer area, but on the left side of the page.
 solution: use "margin-left: auto".
+------------------
+issue: I can't get the div with the text about the member next to the div with the image of the member.
+solution: I forgot to add another row to make the div's sit next to each other.
+-----------------
 
 

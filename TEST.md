@@ -57,3 +57,5 @@ TO BE CONTINUED
 issue: the back to top button is in the footer area. It needs to be above the footer.
 trial: remove "float: right" -> the button is above the footer area, but on the left side of the page.
 solution: use "margin-left: auto".
+
+

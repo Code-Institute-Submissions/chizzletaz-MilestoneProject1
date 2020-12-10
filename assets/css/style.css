@@ -225,3 +225,24 @@ footer, .navbar {
     margin: 0 auto;
     padding: 5px 50px; 
 }
+
+.portrait {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-style: solid;
+  border-color: #808080;
+  border-width: 3px;
+  border-radius: 50% 50% 50% 0;
+  margin: 10 auto 0;
+}
+
+.portrait-img1 {
+  background-image: url('../img/portrait1.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  border-radius: 50% 50% 50% 0;
+  padding-top: 20px;
+}
+

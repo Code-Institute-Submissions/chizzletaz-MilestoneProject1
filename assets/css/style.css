@@ -111,7 +111,9 @@ footer, .navbar {
     /*----------------viewport smaller than 768px */
 .concert-item {
     position: relative;
+    padding-top: 3vw;
 }
+
 .concert-item h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 24px;
@@ -160,27 +162,29 @@ footer, .navbar {
 }
 
 /*-------------------------------------------About Us */
-.about-us {
+/* .about-us {
     padding-bottom: 40px;
-}
+} */
 
 .about {
-    width: 80%;
+    width: 70%;
     max-width: 992px;
     margin: 0 auto;
-}
-
-/*-------------------------------------------Our Music */
-.our-music {
-    padding-bottom: 40px;
+    padding: 5px 70px;
 }
 
 .music {
-    width: 80%;
+    width: 70%;
     max-width: 992px;
     margin: 0 auto;
+    padding: 5px 70px;
 }
 
+
+#back-to-top {
+    float: right;
+    font-size: 24px;
+}
 /*-------------------------------------------Footer */
 
 

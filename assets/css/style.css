@@ -168,14 +168,14 @@ footer, .navbar {
     width: 70%;
     max-width: 992px;
     margin: 0 auto;
-    padding: 5px 70px;
+    padding: 5px 50px;
 }
 
 .music {
     width: 70%;
     max-width: 992px;
     margin: 0 auto;
-    padding: 5px 70px;
+    padding: 5px 50px;
 }
 
 
@@ -215,4 +215,13 @@ footer, .navbar {
 
 .list-inline-item i {
     color: #fff;
+}
+
+/*-------------------------------------------aboutus.html page */
+
+.about-group {
+    width: 90%;
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 5px 50px; 
 }

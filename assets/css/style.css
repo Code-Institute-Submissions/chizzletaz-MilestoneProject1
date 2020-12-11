@@ -181,7 +181,7 @@ footer, .navbar {
 
 #back-to-top {
     text-align: center;
-    font-family: "Montserrat";
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     margin-left: auto;
     margin-right: 20px;
@@ -220,12 +220,21 @@ footer, .navbar {
 /*-------------------------------------------aboutus.html page */
 
 .about-group {
+    font-family: "Crimson Text", serif;
+    font-size: 18px;
     width: 90%;
     max-width: 992px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 5px 50px; 
 }
 
+.line {
+    border: 1px solid #2f4f4f;
+    width: 50%;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
 .about-members {
     margin: 20x;
     max-width: 1200px;
@@ -281,4 +290,17 @@ footer, .navbar {
 
 .member-text {
     margin: 10px;
+}
+
+.member-text h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.member-text p {
+    font-family: "Crimson Text", serif;
+    font-size: 18px;
+    margin: 20px;
 }

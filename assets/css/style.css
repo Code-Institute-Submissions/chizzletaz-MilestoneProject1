@@ -189,14 +189,13 @@ footer, .navbar {
 
 /*-------------------------------------------Footer */
 
-
 .list-inline {
     padding-right: 20px;
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 .footer-signup{
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 #btn-footer-signup {
@@ -225,7 +224,7 @@ footer, .navbar {
     width: 90%;
     max-width: 992px;
     margin: 20px auto;
-    padding: 5px 50px; 
+    padding: 5px 20px; 
 }
 
 .line {
@@ -249,6 +248,7 @@ footer, .navbar {
   border-width: 3px;
   border-radius: 50% 50% 50% 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 auto;
 }
 
 .portrait-img1 {
@@ -302,5 +302,5 @@ footer, .navbar {
 .member-text p {
     font-family: "Crimson Text", serif;
     font-size: 18px;
-    margin: 20px;
+    margin: 20px 0;
 }

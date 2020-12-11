@@ -228,6 +228,7 @@ footer, .navbar {
 
 .about-members {
     margin: 20x;
+    max-width: 1200px;
 }
 
 .member-portrait {

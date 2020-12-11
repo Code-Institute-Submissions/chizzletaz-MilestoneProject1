@@ -48,9 +48,9 @@
     background-color: #fceec2;
 }
 
-.our-music {
+/* .our-music {
     background-color: 
-}
+} */
 
 footer, .navbar {
     background-color: #2f4f4f;
@@ -226,6 +226,10 @@ footer, .navbar {
     padding: 5px 50px; 
 }
 
+.about-members {
+    margin: 20x;
+}
+
 .member-portrait {
   width: 200px;
   height: 200px;
@@ -234,6 +238,7 @@ footer, .navbar {
   border-color: #808080;
   border-width: 3px;
   border-radius: 50% 50% 50% 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .portrait-img1 {
@@ -274,5 +279,5 @@ footer, .navbar {
 }
 
 .member-text {
-    
+    margin: 10px;
 }

@@ -11,7 +11,7 @@
     padding: 0;
 }
 
-.headertext {
+.header-text {
     font-family: "Raleway", sans-serif;
     font-size: 32px;
     font-weight: bold;
@@ -48,7 +48,10 @@
 }
 
 /*-------------------------------------------Colors */
- 
+ .shows {
+     background-color: #fef9eb;
+ }
+
 .fb:hover {
   background-color: #3b5999;
 }
@@ -318,7 +321,7 @@ footer, .navbar {
     margin: 20px 0;
 }
 /*-------------------------------------------ourshows.html page */
-.shows {
+.ourshows {
   max-width: 900px;
   margin: 0 auto;
 }

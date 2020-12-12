@@ -329,15 +329,15 @@ footer, .navbar {
     font-family: "Raleway", sans-serif;
 }
 /*-------------------------------------------ourmusic.html page */
-.audio {
+.audio, .video {
     text-align: center;
     font-family: "Crimson text", serif;
 }
-.audio h3 {
+.audio h3, .video h3 {
     font-size: 20px;
 }
 
-.audio h4 {
+.audio h4, video ~ h4 {
     font-size: 18px;
     font-style: italic;
 }

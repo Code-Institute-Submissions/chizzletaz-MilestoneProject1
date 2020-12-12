@@ -61,5 +61,12 @@ solution: use "margin-left: auto".
 issue: I can't get the div with the text about the member next to the div with the image of the member.
 solution: I forgot to add another row to make the div's sit next to each other.
 -----------------
-
+issue: after adding video with bootstrap iframe to ourmusic.html, the video takes up the whole page.
+trial: wrap the video in a <div class='container> -> adjusts to max width of the container.
+solution: according to c kuijjer (on https://stackoverflow.com/questions/28124214/how-to-reduce-html-video-player-size-in-bootstrap)
+you can add a div and set the width or you can wrap the iframe in a bootstrap-grid. Setting a div with width looses the 
+responsiveness. So I choose the bootstrap-grid.
+issue2: the video isn't centered.
+trial: add 2 empty columns on either side of the video-column. --> works.
+-----------------
 

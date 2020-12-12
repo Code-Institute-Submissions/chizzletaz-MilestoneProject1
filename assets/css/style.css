@@ -96,7 +96,6 @@ footer, .navbar {
   background-image: url("../img/stage gold.jpeg");
   background-position: center;
   background-size: cover;
-  background-color: #fceec2;
 }
 
 .jumbotron {
@@ -330,18 +329,19 @@ footer, .navbar {
 }
 /*-------------------------------------------ourmusic.html page */
 .audio, .video {
-    text-align: center;
     font-family: "Crimson text", serif;
+    
 }
 .audio h3, .video h3 {
     font-size: 20px;
 }
 
-.audio h4, video ~ h4 {
-    font-size: 18px;
+.audio h4, .video-title {
+    font-size: 20px;
     font-style: italic;
 }
 
 .audio-player:active {
     background: none;
+    margin: 0 auto;
 }

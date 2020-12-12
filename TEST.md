@@ -66,7 +66,12 @@ trial: wrap the video in a <div class='container> -> adjusts to max width of the
 solution: according to c kuijjer (on https://stackoverflow.com/questions/28124214/how-to-reduce-html-video-player-size-in-bootstrap)
 you can add a div and set the width or you can wrap the iframe in a bootstrap-grid. Setting a div with width looses the 
 responsiveness. So I choose the bootstrap-grid.
-issue2: the video isn't centered.
-trial: add 2 empty columns on either side of the video-column. --> works.
------------------
 
+issue2: the video isn't centered.
+solution: add 2 empty columns on either side of the video-column.
+-----------------
+issue: the text is centered, but I want it aligned to the right. Aligned with the left side of the video.
+solution: add the same bootstrap-grid to the audio and text div's.
+----------------
+issue: when loading ourmusic.html, the video starts playing automatically.
+solution: replace iframe tag with video tag.

@@ -88,7 +88,7 @@ footer, .navbar {
 }
 
 .navbar {
-    font-family: "Montserrat", serif;
+    font-family: "Crimson text", serif;
 }
 /*Main-------------------------------------------Main */
 /*--------------------------------------Jumbotron/Hero image */
@@ -108,7 +108,7 @@ footer, .navbar {
 }
 
 #jumbo-title {
-    font-family: "Montserrat", serif;
+    font-family: "Crimson text", serif;
     font-size: 32px;
     text-transform: uppercase;
     font-weight: bolder;
@@ -320,8 +320,28 @@ footer, .navbar {
     margin: 20px 0;
 }
 /*-------------------------------------------ourshows.html page */
-.ourshows {
+.ourshows {  
   max-width: 900px;
   margin: 0 auto;
 }
 
+.ourshows p {
+    font-family: "Raleway", sans-serif;
+}
+/*-------------------------------------------ourmusic.html page */
+.audio {
+    text-align: center;
+    font-family: "Crimson text", serif;
+}
+.audio h3 {
+    font-size: 20px;
+}
+
+.audio h4 {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.audio-player:active {
+    background: none;
+}

@@ -131,10 +131,6 @@ footer, .navbar {
   background: rgba(47, 79, 79, 0.5);
 }
     /*----------------viewport smaller than 768px */
-.concert-item {
-    position: relative;
-    padding-top: 3vw;
-}
 
 .concert-item h2 {
     font-family: "Raleway", sans-serif;
@@ -344,4 +340,8 @@ footer, .navbar {
 .audio-player:active {
     background: none;
     margin: 0 auto;
+}
+/*-------------------------------------------contact.html page */
+.book-us-form, .contact-form {
+    max-width: 900px;
 }

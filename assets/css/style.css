@@ -90,6 +90,15 @@ footer, .navbar {
 .navbar {
     font-family: "Crimson text", serif;
 }
+
+.navbar-item {
+    border: 2px solid #2f4f4f;
+}
+
+.nav-item a:hover {
+  border: 2px solid #b8860b;
+}
+
 /*Main-------------------------------------------Main */
 /*--------------------------------------Jumbotron/Hero image */
 .welcome {
@@ -216,7 +225,14 @@ footer, .navbar {
 }
 
 #btn-footer-signup {
+    border: 2px solid #b8860b;
     border-radius: 0px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#btn-footer-signup:hover {
+    background: #b8860b;
 }
 
 .list-inline-item {
@@ -254,7 +270,7 @@ footer, .navbar {
   height: 200px;
   padding: 10px;
   border-style: solid;
-  border-color: #808080;
+  border-color: #b8860b;
   border-width: 3px;
   border-radius: 50% 50% 50% 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

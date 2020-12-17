@@ -75,3 +75,10 @@ solution: add the same bootstrap-grid to the audio and text div's.
 ----------------
 issue: when loading ourmusic.html, the video starts playing automatically.
 solution: replace iframe tag with video tag.
+----------------
+issue: I added a border when hover over the navlinks. 
+.nav-item a:hover {
+  border: 2px solid #b8860b;
+}
+However the navlinks and navbottom-border move when hovering, because of the added border.
+solution: use hvr-reveal from hover.css. 

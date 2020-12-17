@@ -278,6 +278,17 @@ footer, .navbar {
     color: #fff;
 }
 
+.modal-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.modal-body {
+    font-family: "Crimson text", serif;
+}
+
 /*-------------------------------------------aboutus.html page */
 
 .about-group {

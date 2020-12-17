@@ -117,3 +117,96 @@ has a a contact form for booking or inquiries. Below there is a section with gen
 **Wireframes:**
 
 link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/documents/Wireframes%20MSP1.pdf)  
+
+## **Surface level**
+
+# **Features**
+functional specification:  
+form for buying tickets  
+form for booking the group  
+email subscription button for newsletter
+	
+content requirements:  
+personal info on the group and its members  
+information on concerts and latest news  
+embedded media content  
+social media links  
+contact details
+
+**Existing Features:**  
+On each site:  
+Navigation bar:  
+A fixed navigation bar so that users can easily navigate the website. On mobile screens it collapses into a ‘burger icon’ with dropdown menu to reduce taking up too much real estate.  
+Footer:  
+A footer with a Call To Action-button to subscribe to the newsletter of Be-Sharp. 
+Also the social media links are present in the form of an icon.
+
+Newsletter subscription:  
+A button for a sign up-form at the bottom of the page allows the user to sign up to the email-newsletter of the group in order to stay up to date with the latest news about the group and upcoming concerts/projects. When clicked it opens up a modal.
+
+social media profile links:  
+displays icon links to the different social media profiles of the group.  
+Desktop and tablet: On top of the page (navbar) and at the bottom of the page.  
+Mobile: only on the bottom of the page.
+
+**On individual pages** 
+Home page
+
+Booking page  
+Booking tickets online: 
+a form that lets users buy tickets on the website directly.
+	
+Media page  
+Embedded audio/video links
+Audio-files/videos are embedded on the site for users to listen to.
+
+About page
+
+Contact page  
+Contact form - allows users to get in contact with the group for booking or information, by leaving their name and email address and the reason 
+
+## **Features left to implement**
+Future ideas  
+Search bar  
+option to buy a song or album  
+A blog  
+online payment
+
+## **Technologies used**
+*languages used*  
+HTML, CSS
+*frameworks, libraries and programmes used*  
+Bootstrap, Balsamiq, GitHub, GitPod
+
+## **Testing** 
+
+## **Deployment**
+
+## **Credits**
+### Code
+standard country dropdown.
+https://www.freeformatter.com/iso-country-list-html-select.html
+
+dark overlay for carousel:
+https://www.codegrepper.com/code-examples/css/how+to+make+dark+overlay+css
+
+size embedded video:
+https://stackoverflow.com/questions/28124214/how-to-reduce-html-video-player-size-in-bootstrap (by ckuijjer)
+
+### Content
+### Media
+**Images:**  
+Photo by Taylor Deas-Melesh on Unsplash  
+Photo by Kreated Media on Unsplash  
+Photo by Jurica Koletić on Unsplash  
+Photo by Georgia Mashford on Unsplash  
+Photo by Payton Tuttle on Unsplash
+
+stage: Photo by Kyle Head on Unsplash  
+Photo by Rob Laughter on Unsplash  
+Photo by Barry Weatherall on Unsplash  
+Photo by Caley Dimmock on Unsplash  
+Photo by Sharon McCutcheon on Unsplash  
+https://wallpaperaccess.com/mozart  
+Photo by Erwan Hesry on Unsplash  
+Photo by Rodion Kutsaev on Unsplash

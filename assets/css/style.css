@@ -127,7 +127,7 @@
 }
 
 /*Main-------------------------------------------Main */
-/*--------------------------------------Jumbotron/Hero image */
+/*--------------------------------------Hero image */
 .welcome {
   background-image: url("../img/microphone.jpg");
   background-position: center;
@@ -152,7 +152,7 @@
     font-size: 60px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 70px 20px;
+    padding: 50px 20px;
 }
 
 .jumbo-text {
@@ -172,7 +172,9 @@
   background: rgba(0, 0, 0, 0.3);
 }
     /*----------------viewport smaller than 768px */
-
+.carousel-inner {
+    min-height: 300px;
+}
 .concert-item h2 {
     font-family: "Open Sans Condensed", sans-serif;
     font-size: 24px;

@@ -73,8 +73,8 @@
     background-color: #fceec2;
 }
 
-footer, .navbar {
-    background-color: #2f4f4f;
+.navbar {
+    background-color: #191c1f;
 }
 /*-------------------------------------------Navbar */
 
@@ -256,7 +256,7 @@ footer, .navbar {
     border: 2px solid #b8860b;
     border-radius: 0px;
     background-color: transparent;
-    color: #fff;
+    color: #000;
 }
 
 #btn-footer-signup:hover {
@@ -264,7 +264,7 @@ footer, .navbar {
 }
 
 .list-inline-item {
-    background-color: #6c757d;
+    background-color: #2f353b;
     border: 1px solid #fff;
     border-radius: 50%;
     text-align: center;

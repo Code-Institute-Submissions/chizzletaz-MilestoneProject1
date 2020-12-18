@@ -17,7 +17,6 @@
     font-size: 32px;
     font-weight: bold;
     text-align: center;
-    text-shadow: 2px 2px 4px #fff;
     padding: 40px 0;
     margin: 0 auto;
 }
@@ -49,7 +48,7 @@
 
 /*-------------------------------------------Colors */
  .background {
-     background-color: #cbd7df;
+     background-color: #2f353b;
  }
 
 .fb:hover {
@@ -220,8 +219,8 @@
 
 /*-------------------------------------------About Us */
 
-
 .about {
+    color: #fff;
     width: 70%;
     max-width: 992px;
     margin: 0 auto;
@@ -229,12 +228,16 @@
 }
 
 .music {
+    color: #fff;
     width: 70%;
     max-width: 992px;
     margin: 0 auto;
     padding: 5px 50px;
 }
 
+.about i, .music i {
+    font-size: 40px;
+}
 
 #back-to-top {
     text-align: center;

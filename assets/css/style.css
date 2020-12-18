@@ -75,9 +75,6 @@
     background-color: #fceec2;
 }
 
-/* .navbar {
-    background-color: #191c1f;
-} */
 /*-------------------------------------------Navbar */
 
 
@@ -158,13 +155,12 @@
     padding: 70px 20px;
 }
 
-#jumbo-text {
-    font-family: "Open Sans", sans-serif;
+.jumbo-text {
     font-weight: 16px;
 }
 /*-------------------------------------------Carousel */
 .concerts {
-    background-color: #2f4f4f;
+    background-color: #e0e0e0;
 }
 
 .dark-overlay {
@@ -194,10 +190,7 @@
 
  /*----------------viewport larger than 768px */
  .concert-items {
-    background-color: #808080;
-    background-image: url('../img/christmas-background.jpg');
-    background-size: cover;
-    position: relative;
+    background-color: #f2f2f2;
     padding: 50px 30px;
     width: 100%;
  }

@@ -119,6 +119,15 @@ has a a contact form for booking or inquiries. Below there is a section with gen
 link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/documents/Wireframes%20MSP1.pdf)  
 
 ## **Surface level**
+**Colors**  
+In order for a calm, neat and stylish look, I've decided to keep the colours to black and white with an accent-colour of #b8860b (an orange shade). 
+
+**Fonts**  
+For the logo I've chosen the 'Architects Daughter' typeface, because it is a handwritten typeface. This gives a more unique feeling to the logo.  
+
+In order to keep the overall style and feeling of the site calm, I decided to use one type of font: the Open Sans. This typeface has an open feeling and is optimized for legibility across print, web, and mobile interfaces.  
+
+To give some sort of variety to the text, I've use Open Sans Condensed for the headers.
 
 # **Features**
 functional specification:  
@@ -174,7 +183,7 @@ online payment
 
 ## **Technologies used**
 *languages used*  
-HTML, CSS
+HTML, CSS  
 *frameworks, libraries and programmes used*  
 Bootstrap, Balsamiq, GitHub, GitPod
 
@@ -196,17 +205,18 @@ https://stackoverflow.com/questions/28124214/how-to-reduce-html-video-player-siz
 ### Content
 ### Media
 **Images:**  
-Photo by Taylor Deas-Melesh on Unsplash  
-Photo by Kreated Media on Unsplash  
-Photo by Jurica Koletić on Unsplash  
-Photo by Georgia Mashford on Unsplash  
-Photo by Payton Tuttle on Unsplash
 
-stage: Photo by Kyle Head on Unsplash  
-Photo by Rob Laughter on Unsplash  
-Photo by Barry Weatherall on Unsplash  
-Photo by Caley Dimmock on Unsplash  
-Photo by Sharon McCutcheon on Unsplash  
-https://wallpaperaccess.com/mozart  
-Photo by Erwan Hesry on Unsplash  
-Photo by Rodion Kutsaev on Unsplash
+Microphone hero-image- Photo by Claus Grünstäudl on Unsplash  
+
+Portrait1 - Photo by Taylor Deas-Melesh on Unsplash  
+Portrait2 - Photo by Kreated Media on Unsplash  
+Portrait3 - Photo by Payton Tuttle on Unsplash  
+Portrait4 - Photo by Jurica Koletić on Unsplash   
+
+christmas - Photo by Rodion Kutsaev on Unsplash  
+firework - Photo by Erwan Hesry on Unsplash  
+mozart - https://wallpaperaccess.com/mozart  
+
+**Music and Video**  
+All music files and video files are my property.
+

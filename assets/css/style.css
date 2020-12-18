@@ -169,7 +169,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background: rgba(47, 79, 79, 0.5);
+  background: rgba(0, 0, 0, 0.3);
 }
     /*----------------viewport smaller than 768px */
 
@@ -196,9 +196,9 @@
  }
 
 .concert-card {
-    background: rgba(47, 79, 79, 0.5);
+    background: rgba(0, 0, 0, 0.3);
     margin: 30px 10px;
-    border: 2px solid rgb(47, 79, 79);
+    border: 2px solid rgb(0, 0, 0);
 }
 
 .concert-item-vp-768 h5 {

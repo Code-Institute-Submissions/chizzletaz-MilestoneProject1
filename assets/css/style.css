@@ -51,6 +51,10 @@
      background-color: #2f353b;
  }
 
+ .background2 {
+    background-color: #e0e0e0;
+}
+
 .fb:hover {
   background-color: #3b5999;
 }
@@ -158,9 +162,7 @@
     font-weight: 16px;
 }
 /*-------------------------------------------Carousel */
-.concerts {
-    background-color: #e0e0e0;
-}
+
 
 .dark-overlay {
   position: absolute;

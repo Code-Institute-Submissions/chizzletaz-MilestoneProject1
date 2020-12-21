@@ -419,6 +419,12 @@ small {
     background: none;
     margin: 0 auto;
 }
+
+.audio-item, .video-item {
+    border: 2px solid #b8860b;
+    padding: 15px;
+    margin: 15px auto;
+}
 /*-------------------------------------------contact.html page */
 .book-us-form, .contact-form {
     max-width: 900px;

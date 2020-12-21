@@ -83,5 +83,6 @@ issue: I added a border when hover over the navlinks.
 However the navlinks and navbottom-border move when hovering, because of the added border.
 solution: use hvr-reveal from hover.css. 
 ----------------
-issue: on index.html, the carousel-text isn't aligned in the center and isn't responsive.
-solution: I accidentally deleted the 'carousel-caption'-class.
+issue: on index.html, the carousel-text isn't responsive.
+solution: I accidentally deleted the 'carousel-caption'-class. 
+----------------

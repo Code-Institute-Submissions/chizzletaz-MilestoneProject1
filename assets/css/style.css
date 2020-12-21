@@ -206,6 +206,10 @@ small {
   transform: translateY(-50%);
   bottom: initial;
 }
+
+.carousel-indicators li {
+    border-bottom: 0px;
+}
  /*----------------viewport larger than 768px */
  .concert-items {
     background-color: #f2f2f2;

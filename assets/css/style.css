@@ -29,13 +29,16 @@
     font-family: "Open Sans", sans-serif;
 }
 
-small {
+small, .special {
     font-family: "Crimson Text";
+    font-style: italic;
 }
 
+.btn {
+    border-radius: 0;
+}
 .btn-main, .btn-lg {
   border: 2px solid #b8860b;
-  border-radius: 0;
   background: rgba(255, 193, 7, 0.6);
   color: #000;
   font-weight: 600;
@@ -346,7 +349,7 @@ small {
 }
 
 .about-members {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     max-width: 1200px;
 }
 
@@ -424,6 +427,11 @@ small {
     font-family: "Open Sans", sans-serif;
 }
 
+.show-card {
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
 .buy {
     margin: 30px;
     padding-bottom: 5px;
@@ -431,7 +439,12 @@ small {
 
 .buy:not(:last-child) { 
             border-bottom: 1px solid #000; 
-        }
+}
+
+#exampleModalLabel {
+    font-family: "Open Sans Condensed";
+}
+
 /*-------------------------------------------ourmusic.html page */
 .audio, .video {
     font-family: "Open Sans", sans-serif;
@@ -452,13 +465,14 @@ small {
 }
 
 .audio-item, .video-item {
-    border: 2px solid #b8860b;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 15px #808080;
     padding: 15px;
     margin: 15px auto;
 }
 /*-------------------------------------------contact.html page */
-.book-us-form, .contact-form {
-    /* max-width: 900px; */
+.book-us-form {
+    max-width: 992px;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -488,5 +502,10 @@ small {
   .map-responsive {
     background-color: #fff;
     color: #000;
+    padding-top: 50px;
+  }
+  .map-responsive iframe {
+    border: 0.05rem solid #000;
+    box-shadow:5px 5px 10px #808080;
   }
 }

@@ -411,6 +411,15 @@ small {
 .ourshows p {
     font-family: "Open Sans", sans-serif;
 }
+
+.buy {
+    margin: 30px;
+    padding-bottom: 5px;
+}
+
+.buy:not(:last-child) { 
+            border-bottom: 1px solid #000; 
+        }
 /*-------------------------------------------ourmusic.html page */
 .audio, .video {
     font-family: "Open Sans", sans-serif;

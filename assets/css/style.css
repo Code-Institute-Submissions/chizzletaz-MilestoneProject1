@@ -458,7 +458,7 @@ small {
 }
 /*-------------------------------------------contact.html page */
 .book-us-form, .contact-form {
-    max-width: 900px;
+    /* max-width: 900px; */
     font-family: "Open Sans", sans-serif;
 }
 
@@ -480,6 +480,13 @@ small {
 }
 
 .map-responsive {
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .map-responsive {
+    background-color: #fff;
+    color: #000;
+  }
 }

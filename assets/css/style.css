@@ -478,3 +478,8 @@ small {
 .form {
     margin: 20px;
 }
+
+.map-responsive {
+    overflow: hidden;
+    padding: 25px;
+}

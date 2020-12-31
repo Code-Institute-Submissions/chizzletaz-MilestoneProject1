@@ -461,8 +461,13 @@ small, .special {
 /*-------------------------------------------ourmusic.html page */
 .audio, .video {
     font-family: "Open Sans", sans-serif;
-    
+    margin: 30px auto;
 }
+
+.video {
+    padding: 30px;
+}
+
 .audio h3, .video h3 {
     font-size: 20px;
 }
@@ -479,6 +484,7 @@ small, .special {
 
 .audio-item, .video-item {
     border: 1px solid #000;
+    background-color: #fff;
     box-shadow: 5px 5px 15px #808080;
     padding: 15px;
     margin: 15px auto;

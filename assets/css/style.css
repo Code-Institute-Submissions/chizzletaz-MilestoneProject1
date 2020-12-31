@@ -58,6 +58,9 @@ small, .special {
   background: none;
 }
 
+.btn-book:hover, .btn-here:hover {
+    color: #fff;
+}
 /*--- for dark backgrounds ---*/
 .dark {
   color: #fff;
@@ -231,6 +234,12 @@ small, .special {
 
 .carousel-indicators li {
     border-bottom: 0px;
+}
+
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
  /*----------------viewport larger than 768px */
  .concert-items {

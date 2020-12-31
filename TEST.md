@@ -39,20 +39,12 @@ on inspecting the padding is too large below 760px.
 trial: change padding (of list-inline and footer-signup) to 50px auto.
 Padding auto is no valid value.
 solution: use margin in stead of padding, so: margin: 50px auto.
-----------------
-issue: I want the text of the carousel centered.
-trial: text-align: center -> doesn't work.
-trial: margin: auto -> doesn't work.
-trial: rename the carousel-caption class to concert-item and wrap everything in a div.
-set the parent div to position: absolute and set position: relative for concert-item.
-doesn't work. 
-TO BE CONTINUED
 ------------------
 
 issue: the card heigths aren't equal length. 
 trial: according to bootstrap you should add h-100 to the card.
 This solves the equal length, but the cards are now outside of the container.
-TO BE CONTINUED
+Solution: adjust text so that each card has the same amount of text-lines.
 -----------------
 issue: the back to top button is in the footer area. It needs to be above the footer.
 trial: remove "float: right" -> the button is above the footer area, but on the left side of the page.
@@ -85,4 +77,13 @@ solution: use hvr-reveal from hover.css.
 ----------------
 issue: on index.html, the carousel-text isn't responsive.
 solution: I accidentally deleted the 'carousel-caption'-class. 
+----------------
+Issue: I want to change the color of the carousel-indicators.
+trial: change the color in style-css. This doesn't work.
+solution: according to Chris Gunawardena (on https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) you can use this code:
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-indicators /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
 ----------------

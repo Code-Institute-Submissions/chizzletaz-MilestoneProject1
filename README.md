@@ -193,8 +193,8 @@ Bootstrap, Balsamiq, GitHub, GitPod
 
 ## **Credits**
 ### Code
-standard country dropdown.
-https://www.freeformatter.com/iso-country-list-html-select.html
+change color of carousel-indicators:
+https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel (by Chris Gunawardena)
 
 dark overlay for carousel:
 https://www.codegrepper.com/code-examples/css/how+to+make+dark+overlay+css

@@ -97,7 +97,6 @@ small, .special {
 
 /*-------------------------------------------Navbar */
 
-
 #logo {
     font-family: "Architects Daughter";
     font-size: 42px;
@@ -140,12 +139,17 @@ small, .special {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hvr-reveal:hover:before, .hvr-reveal:focus:before, .hvr-reveal:active:before {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   border-width: 2px;
 }
 
+.black-line {
+    height: 1px;
+    background-color: #000;
+}
 /*Main-------------------------------------------Main */
 /*--------------------------------------Hero image */
 .welcome {
@@ -344,8 +348,8 @@ small, .special {
     font-size: 16px;
     width: 90%;
     max-width: 992px;
-    margin: 0px auto 20px;
-    padding: 5px 20px; 
+    margin: 0px auto;
+    padding: 5px 0px; 
 }
 
 .about-members {

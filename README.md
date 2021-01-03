@@ -6,7 +6,7 @@ The main focus for the website is to get people to buy tickets for their concert
  
 The website provides information on upcoming concerts, on the group and its members and has some media samples. It also has the option buy tickets or to book the group for events.
 
-A live version of this website can be viewed here: #link naar de website   
+A live version of this website can be viewed [here](https://chizzletaz.github.io/MilestoneProject1/)   
 &nbsp;  
 
 
@@ -25,39 +25,37 @@ The target audience for this website is:
 **First time users:**
 
 - As a first time user, I want to navigate easily across the website.
-- As a first time user I want to find information about the group and its members, so i can get to know the group better.
-- As a first time user I want to hear some of the recordings, to see whether I like the group’s music.
+- As a first time user, I want to find information about the group and its members, so i can get to know the group better.
+- As a first time user, I want to hear some of the recordings, to see whether I like the group’s music.
 
 **Returning/regular users:**
 
-- As a user I want to follow the group, so I stay up to date with the latest news on what they do.
-- As a user I want to find information on concerts, so I can see when and where they are.
-- As a user I want to be able to buy tickets for their concerts.
-- As a user I want the option of buying a song or album.
+- As a user, I want to follow the group, so I stay up to date with the latest news on what they do.
+- As a user, I want to find information on concerts, so I can see when and where they are.
+- As a user, I want to be able to buy tickets for their concerts.
+- As a user, I want the option of buying a song or album.
 
 **Event planners:**
 
-- As an event planner I want to learn more about the group and listen to some material, so I can decide whether or not to book the group for an event.
-- As an event planner I want to contact the group (by email or by phone), so I can get more information or book them for an event.
+- As an event planner, I want to learn more about the group and listen to some material, so I can decide whether or not to book the group for an event.
+- As an event planner, I want to contact the group (by email or by phone), so I can get more information or book them for an event.
 
 
 ### **Owner goals:**
 
-**As the owners:**
 
-- We want users to buy tickets to our concerts.
-- We want people to book us.
-- We want to provide information on our group and its members, so first time visitors/event planners can get to know us.
-- We want to provide media samples, so people can get to know us and/or buy our music.
+- As the owners we want users to buy tickets to our concerts.
+- As the owners we want people to book us.
+- As the owners we want to provide information on our group and its members, so first time visitors/event planners can get to know us.
+- As the owners we want to provide media samples, so people can get to know us and/or buy our music.
 - We want our social links displayed, so people can follow us and we can generate a fanbase.
-- We want to give updates on what we’re doing, so we stay connected with our followers.  
+- As the owners we want to give updates on what we’re doing, so we stay connected with our followers.  
 &nbsp;  
 
 
 ## **Scope level**
 
-Combining the user needs and owner goals gives the following requirements:
-Next to these I’ve indicated the importance vs viability/feasibility in a trade-off equation.
+Combining the user needs and owner goals gives the following requirements with their respective importance and viability/feasibility displayed in a trade-off equation:
 
 |					| importance  | viability/feasibility
 | --- | :---: | :---: |
@@ -71,31 +69,36 @@ Next to these I’ve indicated the importance vs viability/feasibility in a trad
 |h. provide newsletter subscription	|4		|3
 |i. option to buy a song or album	|3		|1
 
-*This means that the option to buy a song or album is not implemented now. This will be a feature left to implement.*  
+This means that the option to buy a song or album is not implemented now. This will be a feature left to implement. 
 &nbsp;
 
 ## **Structure level**
 
 Using Interaction Design and Information Design I made the following decisions:  
+
 I want to keep the website consistent by keeping the same page structure along all pages. This enhances the user’s single-use-learning:
 
-- I kept the header and footer the same on each page (except for the home page)
+- I kept the header and footer the same on each page.
 - I styled the button elements the same way.
 
 I want the website to be easy to navigate:
-- A fixed responsive navigation bar at the top. 
-- The logo at the top is also the link to the home page. 
+- A responsive navigation bar at the top. 
+- The logo at the top is also the link to the home page.
+- On the homepage: besides the navigation-links in the navigation-bar, you can get to the other pages by clicking directly on the repective buttons for more information. E.g. at the 'about us'-section on the main page there is a button that leads to the page that has more information on the group and its members.
 
-I want the information easily visible:
+I want the information to be easily visible:
 - I use visual aids like icons, matching colours and images.
-- not giving too much information at once. 
+- I've used a alternating backgroundcolors to indicate a new section on the page.
+- I'm not giving too much information at once. 
 
 I want the user to get feedback during their visit:
 - The user get’s a visual feedback during certain actions (e.g. focussing on, clicking on, hovering over buttons and links).
+- The user get's a feedback when an error as occured, like an image that can't be displayed.
 
 I’ve based the content requirements on the most likely path a first time user or event planner would take (navigation flow). That is: get to know more about the group (*About Us*) and their music (*Our Music*) and then get tickets for a show or book the group.
 Therefore the order in which the websites (and links) are presented is: 
 **Home - About us - Our Music - Our Shows - Contact (dropdown menu with Book us)**  
+Taking the owner goals into account as well, I’ve opted for the 'Book Us' and 'Upcoming Shows'-section to be displayed first on the main page to ‘seduce’ the first time user/event planner into wanting more information. 
 &nbsp;  
 
 ## **Skeleton level**
@@ -120,14 +123,17 @@ link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master
 
 ## **Surface level**
 **Colors**  
-In order for a calm, neat and stylish look, I've decided to keep the colours to black and white with an accent-colour of #b8860b (an orange shade). 
+In order to get a calm, neat and stylish look, I've decided to keep the colours to black, grey and white with an accent-colour of #b8860b (an orange shade).   
+![colors used](assets/img/extra/color-codes.png)
 
 **Fonts**  
 For the logo I've chosen the 'Architects Daughter' typeface, because it is a handwritten typeface. This gives a more unique feeling to the logo.  
+Also using text and font for the logo is an easier way to create the logo.
 
-In order to keep the overall style and feeling of the site calm, I decided to use one type of font: the Open Sans. This typeface has an open feeling and is optimized for legibility across print, web, and mobile interfaces.  
+In order to keep the overall style and feeling of the site calm, I decided to mainly use one type of font: the Open Sans. This typeface is a sans-serif font and has an open feeling and is optimized for legibility across print, web, and mobile interfaces.  
+To give some sort of variety to the text, I've use Open Sans Condensed for the headers.  
 
-To give some sort of variety to the text, I've use Open Sans Condensed for the headers.
+For the small text I've used 'Crimson text', a serif font.
 
 # **Features**
 functional specification:  
@@ -145,7 +151,7 @@ contact details
 **Existing Features:**  
 On each site:  
 Navigation bar:  
-A fixed navigation bar so that users can easily navigate the website. On mobile screens it collapses into a ‘burger icon’ with dropdown menu to reduce taking up too much real estate.  
+A navigation bar so users can easily navigate the website. On mobile screens it collapses into a ‘hamburger icon’ with dropdown menu to reduce taking up too much real estate.  
 Footer:  
 A footer with a Call To Action-button to subscribe to the newsletter of Be-Sharp. 
 Also the social media links are present in the form of an icon.

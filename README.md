@@ -136,93 +136,136 @@ To give some sort of variety to the text, I've use Open Sans Condensed for the h
 For the small text I've used 'Crimson text', a serif font.
 
 # **Features**
-functional specification:  
-form for buying tickets  
-form for booking the group  
-email subscription button for newsletter
+
+**Existing Features:** 
+
+- **Responsiveness** on all viewports, from mobile, to tablet to desktop.
+
+- A **navigation bar** which allows users to easily navigate the website. 
+On mobile screens it collapses into a ‘burger icon’ with dropdown menu to reduce taking up too much real estate.
+
+**Call To Action-buttons**   
+- A CTA which allow users to subscribe to the newsletter of Be-Sharp.   
+- A CTA which allow users to book the group.
+
+**Modals**   
+- A modal for a signup-form in the footer, which allows the user to sign up to the email-newsletter of the group.  
+- A modal to buy tickets for upcoming shows.
+
+**Icons**  
+- Social media icons that link to the different social media profiles of the group. For desktop: if the user hovers over the icon, the background changes to the logo-color of the social media.  
+- Icons as a visual aid for the different headings/navigation-links.
+
+**Embedded audio/video links**  
+- Embedded audio-files from Spotify for users to listen to.  
+- Embedded video-files from Youtube for users to watch.
+
+**Forms**   
+- A form that allows users to get in contact with the group for booking or information, by leaving their name and email address and the reason for contacting.   
+- A form that allows the user to sign up to the email newsletter of the group by leaving their name and email address. 
 	
-content requirements:  
-personal info on the group and its members  
-information on concerts and latest news  
-embedded media content  
-social media links  
-contact details
-
-**Existing Features:**  
-On each site:  
-Navigation bar:  
-A navigation bar so users can easily navigate the website. On mobile screens it collapses into a ‘hamburger icon’ with dropdown menu to reduce taking up too much real estate.  
-Footer:  
-A footer with a Call To Action-button to subscribe to the newsletter of Be-Sharp. 
-Also the social media links are present in the form of an icon.
-
-Newsletter subscription:  
-A button for a sign up-form at the bottom of the page allows the user to sign up to the email-newsletter of the group in order to stay up to date with the latest news about the group and upcoming concerts/projects. When clicked it opens up a modal.
-
-social media profile links:  
-displays icon links to the different social media profiles of the group.  
-Desktop and tablet: On top of the page (navbar) and at the bottom of the page.  
-Mobile: only on the bottom of the page.
-
-**On individual pages** 
-Home page
-
-Booking page  
-Booking tickets online: 
-a form that lets users buy tickets on the website directly.
-	
-Media page  
-Embedded audio/video links
-Audio-files/videos are embedded on the site for users to listen to.
-
-About page
-
-Contact page  
-Contact form - allows users to get in contact with the group for booking or information, by leaving their name and email address and the reason 
+- **Google maps** to provide the user with a location of the group.  
 
 ## **Features left to implement**
-Future ideas  
-Search bar  
-option to buy a song or album  
-A blog  
-online payment
+
+- A Search bar for user to search information more quick.  
+- The option to buy a song or album  
+- A blog  
+- The option to pay directly.  
+- functional buttons/forms, pending on learning Javascript.
+
 
 ## **Technologies used**
-*languages used*  
-HTML, CSS  
-*frameworks, libraries and programmes used*  
-Bootstrap, Balsamiq, GitHub, GitPod
+
+**languages used**  
+- [HTML5](https://en.wikipedia.org/wiki/HTML) for markup  
+- [CSS](https://en.wikipedia.org/wiki/CSS) for styling
+
+**Frameworks, libraries and programmes used**   
+- [Bootstrap 4.5.3](https://getbootstrap.com/) was used for precoded code-snippets, like navigation bar, modals, carousel and to help with the responsiveness of the website.  
+- [Balsamiq](https://balsamiq.com/) for making the wireframes.  	
+- [Git](https://git-scm.com/) was used version control.  
+- [GitHub](https://github.com/) for storing and deploying the website.  
+- [GitPod](https://www.gitpod.io/) for coding (IDE) the website.  
+- [Google fonts](https://fonts.google.com/) for the fonts used in the website.  
+- [Font Awesome](https://fontawesome.com/) for the icons used on the website.  
+- [Hover.css](https://ianlunn.github.io/Hover/) was used for the hover effect on the navigation-links.  
+- [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+was used to debug and checking/testing the website.  
 
 ## **Testing** 
 
 ## **Deployment**
 
+To deploy this website to GitHub, I followed the these steps:
+
+1. Go to GitHub.com and on the left side click on the repository:chizzletaz/MilestoneProject1.
+2. In the repository click on the ‘Settings’-tab at the top.
+3. Scroll down to ‘GitHub Pages’.
+4. Under ‘Source’ you see the word ‘None’ with a dropdown menu: select ‘master branch’.
+5. Click ‘Save’, this will give you a URL of the website (see above ‘Source’).
+
+Local Clone:
+1. Go to GitHub.com and on the left side click on the repository.
+2. Click on the ‘Code’ button.
+3. To clone using HTTPS, copy the link that is displayed.
+4. Open a terminal in your preferred IDE (e.g. Atom)
+5. Use  the ‘git clone’ command and add the link that you copied in step 3.  For Atom: Toggle command palette (cmd-shift-p (macOS) or shift-p (Linux/Windows) and search ‘git clone’: Add the link and 
+6. A clone will be created locally.
+
+For more info on how to clone a repository check [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
 ## **Credits**
 ### Code
-change color of carousel-indicators:
-https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel (by Chris Gunawardena)
+Changing the color of the carousel-indicators:
+[by Chris Gunawardena](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) 
 
-dark overlay for carousel:
-https://www.codegrepper.com/code-examples/css/how+to+make+dark+overlay+css
+Creating the [dark/light-overlay](https://www.codegrepper.com/code-examples/css/how+to+make+dark+overlay+css) for carousel and hero-image
 
-size embedded video:
-https://stackoverflow.com/questions/28124214/how-to-reduce-html-video-player-size-in-bootstrap (by ckuijjer)
+How to [embed spotify audio](https://developer.spotify.com/documentation/widgets/generate/embed/)
+
+How to control the size of an embedded video [by ckuijjer](https://stackoverflow.com/questions/28124214/how-to-reduce-html-video-player-size-in-bootstrap)
+
+Hover.css for the border of the navigation links on hover by [Ian Lunn](https://ianlunn.github.io/Hover/)
+
+How to [embed Google maps](https://blog.duda.co/responsive-google-maps-for-your-website)
+
 
 ### Content
+All content is written by myself.
+
 ### Media
-**Images:**  
+**Images**  
+*Portrait images*  
+- portrait1 - Photo by Taylor Deas-Melesh on Unsplash  
+- portrait2 - Photo by Kreated Media on Unsplash  
+- Portrait3 - Photo by Payton Tuttle on Unsplash  
+- portrait4 - Photo by Jurica Koletić on Unsplash
 
-Microphone hero-image- Photo by Claus Grünstäudl on Unsplash  
+*upcoming shows images:*  
+- mozart - https://wallpaperaccess.com/mozart  
+- firework - Photo by Erwan Hesry on Unsplash  
+- christmas - Photo by Rodion Kutsaev on Unsplash
 
-Portrait1 - Photo by Taylor Deas-Melesh on Unsplash  
-Portrait2 - Photo by Kreated Media on Unsplash  
-Portrait3 - Photo by Payton Tuttle on Unsplash  
-Portrait4 - Photo by Jurica Koletić on Unsplash   
+*Microphone hero-image:*  
+- Photo by Claus Grünstäudl on Unsplash
 
-christmas - Photo by Rodion Kutsaev on Unsplash  
-firework - Photo by Erwan Hesry on Unsplash  
-mozart - https://wallpaperaccess.com/mozart  
+**Audio files**  
+All audio files come from Spotify.   
+All the copyrights belong the composers and/or the performers.  
+  
+- Ubi Caritas - composed by Ola Gjeilo, performed by Voces8.  
+- And so it goes - arranged by Bob Chilcott, performed by The King’s Singers  
+- Cerco te - performed by Petra Berger and Joshua Payne  
+- Quartet (A model of decorum and tranquility) from Chess - composed by Benny Andersson and Björn Ulvaeus - performed by Elaine Paige, Tommy Körberg, Denis Quilley and Björn Skifs. 
 
-**Music and Video**  
-All music files and video files are my property.
+**Video files**  
+All video files come from YouTube.  
+All the copyrights belong the composers and/or the performers. 
+- Supercaligrafilisticaxpialidocious - composed by Richard and Robert Sherman - arranged and performed by The Newfangled Four.  
+- Duetto buffo di due gatto (Cat Duet) - composed by Gioachino Rossini - performed by Chichi Enu and Adriene Ivey
 
+
+## Acknowledgements:  
+My mentor Antonio Rodriguez  
+Tutor support at CI  
+Jolanda Grutter for giving me tips on the design of my webpage.

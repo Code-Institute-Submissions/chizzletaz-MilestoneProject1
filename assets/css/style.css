@@ -193,7 +193,7 @@ small, .special {
 }
 
 .jumbo-text {
-    font-weight: 16px;
+    font-size: 16px;
 }
 /*-------------------------------------------Carousel */
 
@@ -462,6 +462,7 @@ small, .special {
 .audio, .video {
     font-family: "Open Sans", sans-serif;
     margin: 30px auto;
+    max-width: 900px;
 }
 
 .video {
@@ -469,10 +470,11 @@ small, .special {
 }
 
 .audio h3, .video h3 {
-    font-size: 20px;
+    font-size: 24px;
+    text-align: center;
 }
 
-.audio h4, .video-title {
+.audio-title, .video-title {
     font-size: 20px;
     font-style: italic;
 }

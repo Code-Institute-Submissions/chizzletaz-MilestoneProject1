@@ -71,8 +71,8 @@ See user story test 2 and 3.
 
 ### Code validation
 
-[W3C Markup Validation Service](https://validator.w3.org/) is used to check for markup validity of the web document, so to check that there are no errors in the HTML files.
-Running the code through the validation gives:
+[W3C Markup Validation Service](https://validator.w3.org/) is used to check for markup validity of the web document.
+Running the code through the validator gives:
 index.html: 
 1. Warning for an empty heading.  
 This was done to keep the height of the header the same for responsivenes, however that problem was solved in a later stage, so the heading can be removed.
@@ -90,24 +90,30 @@ The alt attributes were removed. Since these were in the footer, these were also
 aboutus.html:
 No erors or warnings are shown.
 ourmusic.html:
-1. 4 Errors: a bad value (100%) for 'width' on element iframe. A digit is expected, but a % is used. 
+1. Four errors: a bad value (100%) for 'width' on element iframe. A digit is expected, but a % is used. 
 This is done to display the audio file correctly and to keep it responsive.
 I've tried to change the value to a digit, but then the width stays fixed and the audio file isn't responsive anymore.
-2. 6 Errors: the 'frameborder' attribute om the 'iframe' element is obsolete. CSS is recommended.
+2. Six errors: the 'frameborder' attribute om the 'iframe' element is obsolete. CSS is recommended.
 This attribute was provided by the Spotify embed code. I've removed the 'rameborder' attribute and added iframe { border: none; } to style.css.
-3. 4 Errors: the 'allowtransparency' attribute on the 'iframe' element is obsolete. CSS is recommended.
+3. Four errors: the 'allowtransparency' attribute on the 'iframe' element is obsolete. CSS is recommended.
 Again, this attribute was provided by the Spotify embed code. I've removed the code, this doesn't visually change the website.   
 I've decided to keep it that way and not add CSS.
 
 ourshows.html:
-1. 3 errors: the value of the 'for' attribure of the 'label' element must be the ID of a non-hidden form control.
+1. Three errors: the value of the 'for' attribure of the 'label' element must be the ID of a non-hidden form control.
 I've changed the label to match the ID's.
 contact.html:
-1. 2 errors: bad value for attribute 'type' on element 'input'.
+1. Two errors: bad value for attribute 'type' on element 'input'.
 I've accidentally added the same value of the 'for' attribute to the 'type' attribute.
+2. Errors: a bad value (100%) for 'width' and 'height' on element iframe. A digit is expected, but a % is used. 
+Again, this is done to display the audio file correctly and to keep it responsive (see above).
+
+After these changes, except for the errors that I've left in deliberately, there were no errors or warnings found.
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) is used to check the CSS of the web document.
+Running the code throught the validator by direct input gives no errors.
 
 
-After these changes no errors or warnings were found.
 
 
 goal: circle border around social media icons:

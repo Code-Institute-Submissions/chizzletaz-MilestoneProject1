@@ -491,6 +491,10 @@ small, .special {
     padding: 15px;
     margin: 15px auto;
 }
+
+iframe {
+    border: none;
+}
 /*-------------------------------------------contact.html page */
 .book-us-form {
     max-width: 992px;

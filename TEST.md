@@ -73,19 +73,35 @@ See user story test 2 and 3.
 
 [W3C Markup Validation Service](https://validator.w3.org/) is used to check for markup validity of the web document, so to check that there are no errors in the HTML files.
 Running the code through the validation gives:
-
+index.html: 
 1. Warning for an empty heading.  
 This was done to keep the height of the header the same for responsivenes, however that problem was solved in a later stage, so the heading can be removed.
 
 2. Two warnings that the document is not mappable to XML due to two consecutive hyphens.  
 The hyphens were added for better legibility, however this clashes with the commenting out syntax. The extra hyphens were removed.
 
-3. The section on line 185 lacks a heading.
+3. Error: The section on line 185 lacks a heading.
 Semantics expect a section to have a heading. However this is not meant as a section. Section has been changed to div.
+Since this occurs on all pages, this was also changed on the other pages.
 
-4. Five messages that the alt attribute is not allowed on an < a > element.
-The alt attributes were removed.
+4. Error: Five messages that the alt attribute is not allowed on an < a > element.
+The alt attributes were removed. Since these were in the footer, these were also removed on the other pages.
 
+aboutus.html:
+No erors or warning are shown.
+ourmusic.html:
+1. Error: a bad value (100%) for width on element iframe. A digit is expected, but a % is used. 
+This is done to display the audio file correctly and to keep it responsive.
+I've tried to change the value to a digit, but then the width stays fixed and the audio file isn't responsive anymore.
+2. Error: the frameborder attribute om the iframe element is absolete. CSS is recommended.
+This attribute was provided by the Spotify embed code. I've removed the frameborder attribute and add iframe { border: none; } to style.css.
+3. Error
+
+
+ourshows.html:
+
+contact.html:
+After these changes no errors or warnings were found.
 
 
 goal: circle border around social media icons:

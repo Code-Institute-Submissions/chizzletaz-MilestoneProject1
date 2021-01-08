@@ -108,10 +108,10 @@ I've accidentally added the same value of the 'for' attribute to the 'type' attr
 2. Errors: a bad value (100%) for 'width' and 'height' on element iframe. A digit is expected, but a % is used. 
 Again, this is done to display the audio file correctly and to keep it responsive (see above).
 
-After these changes, except for the errors that I've left in deliberately in [ourmusic.html](assets/img/extra/HTML_errors_ourmusic.png) and [contact.html](assets/img/extra/HTML_errors_contact.png), there were no errors or warnings found.
+After these changes, except for the errors that I've left in deliberately in [ourmusic.html](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/HTML_errors_ourmusic.png) and [contact.html](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/HTML_errors_contact.png), there were [no errors](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/HTML_validation.png) or warnings found.
 
 [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) is used to check the CSS of the web document.
-Running the code throught the validator by direct input gives no errors.
+Running the code throught the validator by direct input gives [no errors](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/CSS_validation.png).
 
 
 

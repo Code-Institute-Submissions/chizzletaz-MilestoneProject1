@@ -84,23 +84,29 @@ The hyphens were added for better legibility, however this clashes with the comm
 Semantics expect a section to have a heading. However this is not meant as a section. Section has been changed to div.
 Since this occurs on all pages, this was also changed on the other pages.
 
-4. Error: Five messages that the alt attribute is not allowed on an < a > element.
+4. Error: Five messages that the 'alt' attribute is not allowed on an < a > element.
 The alt attributes were removed. Since these were in the footer, these were also removed on the other pages.
 
 aboutus.html:
-No erors or warning are shown.
+No erors or warnings are shown.
 ourmusic.html:
-1. Error: a bad value (100%) for width on element iframe. A digit is expected, but a % is used. 
+1. 4 Errors: a bad value (100%) for 'width' on element iframe. A digit is expected, but a % is used. 
 This is done to display the audio file correctly and to keep it responsive.
 I've tried to change the value to a digit, but then the width stays fixed and the audio file isn't responsive anymore.
-2. Error: the frameborder attribute om the iframe element is absolete. CSS is recommended.
-This attribute was provided by the Spotify embed code. I've removed the frameborder attribute and add iframe { border: none; } to style.css.
-3. Error
-
+2. 6 Errors: the 'frameborder' attribute om the 'iframe' element is obsolete. CSS is recommended.
+This attribute was provided by the Spotify embed code. I've removed the 'rameborder' attribute and added iframe { border: none; } to style.css.
+3. 4 Errors: the 'allowtransparency' attribute on the 'iframe' element is obsolete. CSS is recommended.
+Again, this attribute was provided by the Spotify embed code. I've removed the code, this doesn't visually change the website.   
+I've decided to keep it that way and not add CSS.
 
 ourshows.html:
-
+1. 3 errors: the value of the 'for' attribure of the 'label' element must be the ID of a non-hidden form control.
+I've changed the label to match the ID's.
 contact.html:
+1. 2 errors: bad value for attribute 'type' on element 'input'.
+I've accidentally added the same value of the 'for' attribute to the 'type' attribute.
+
+
 After these changes no errors or warnings were found.
 
 

@@ -1,3 +1,79 @@
+# Testing
+## User stories testing:	
+### First time users:
+
+**1. As a first time user, I want to navigate easily across the website.**  
+- *Navigation:*  
+    1. On desktop: adjust screen width to see if the navigation menu collapses into a hamburger icon.  
+    2. Click on all the navigation links to check if it takes you to the correct page.  
+    3. Click on all the buttons on the home page to check if they take you to the correct page.
+
+
+**2. As a first time user I want to find information about the group and its members, so i can get to know the group better.**  
+- *About Us:*  
+    1. Scroll down to the ‘About Us’ section on the Home page and click on the ‘here’ button to check if it takes you to the ‘About Us’ page.  
+    2. Use the navbar and click on to go to the ‘About Us’ link and check if it takes you to the ‘About Us’ page. 
+    3. Scroll down to the footer and click on each of the links to the social media accounts of the group and check if they open up in a new tab and take you to the correct social media website.
+
+**3. As a first time user I want to hear some of the recordings, to see whether I like the group’s music.**  
+- *Our Music:*  
+    1. Scroll down to the ‘Our Music’ section on the Home page and click on the ‘here’ button to check if it takes you to the ‘Our Music’ page.   
+    2. Use the navbar and click on the ‘Our Music’ link and check if it takes you to the ‘Our Music’ page.  
+
+- *embedded audio and video*:
+    1. Check each audio and video file if they are playing.  
+    2. Check if the controls are responding (play/pause).  
+    3. Scroll down to the footer and check if the Youtube and Spotify icon open a new tab and take you to YouTube and Spotify respectively.
+
+### Returning/regular users:
+
+**4. As a user I want to follow the group, so I stay up to date with the latest news on what they do.**
+- *Subscribe to newsletter:*
+    1. Scroll down to the footer. 
+    2. Click on the ‘Signup for our newsletter’ button. This will open a modal where the user can subscribe to the newsletter of the group.  
+    3. Submit the empty form and confirm a warning appears for required fields.
+    4. Submit the form with an invalid email address and confirm a warning appears to use a correct email address.
+    5. Submit the form with all the correct input and check that there are no warnings and the modal closes.
+- *Social media icons and links:*
+    1. Click on each of the links to the social media accounts of the group and check if they open up in a new tab and take you to the correct social media website.
+
+**As a user I want to find information on concerts, so I can see when and where they are.**
+- *Our Shows:*
+    1. croll down to ‘Upcoming Shows’ on the Home page and click the ‘Get Tickets’ button to check if it takes you to the ‘Our Shows’ page. 
+    2. Use the navbar and click on the ‘Our Shows’ link and check if it brings you to the ‘Our Shows’ page.
+
+**5. As a user I want to be able to buy tickets for their concerts.**
+- *Our shows:*
+    1. Go to the ‘Our Shows’ page (see above). 
+- *Buy tickets modal and form:*
+    1. Click on the ‘Buy Tickets’-button to check if the modal for buy tickets for upcoming shows pops up.
+    2. Select a number of tickets and check if the select box works.
+
+**6. As a user I want the option of buying a song or album.**  
+This feature is not implemented and is tagged as a feature left to implement. (see Scope level)
+
+### Event planners:
+
+**7. As an event planner I want to learn more about the group and listen to some material, so I can decide whether or not to book the group for an event.**  
+See user story test 2 and 3.
+
+**8. As an event planner I want to contact the group (by email or by phone), so I can get more information or book them for an event.**  
+- *Book Us button:*  
+    1. On the Home page click on the ‘Book Us’ button to check if it takes you to the ‘Contact’ page.
+- *Contact page:*
+    1. Use the navbar and click on the ‘Contact’ link and then on the ‘Book Us’ link and check if it takes you to the ‘Book Us’ section on the ‘Contact’ page.
+- *Book us form:*
+    1. Submit the empty form and confirm a warning appears for required fields.
+    2. Submit the form with an invalid email address and confirm a warning appears to use a correct email address.
+    3. Submit the form with all the correct input and check that there are no warnings and the modal closes.
+
+## Testing responsiveness:
+
+### Code validation
+
+[W3C Markup Validation Service](https://validator.w3.org/) is used to check for markup validity of the web document, so to check that there are no errors in the HTML files.
+Running the code through the validation gives:
+
 goal: circle border around social media icons:
 .list-inline-item {
     background-color: #6c757d;

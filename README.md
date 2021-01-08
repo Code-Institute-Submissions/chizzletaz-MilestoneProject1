@@ -143,6 +143,7 @@ For the small text I've used 'Crimson text', a serif font.
 
 - A **navigation bar** which allows users to easily navigate the website. 
 On mobile screens it collapses into a ‘burger icon’ with dropdown menu to reduce taking up too much real estate.
+- **Google maps** to provide the user with a location of the group. 
 
 **Call To Action-buttons**   
 - A CTA which allow users to subscribe to the newsletter of Be-Sharp.   
@@ -163,14 +164,13 @@ On mobile screens it collapses into a ‘burger icon’ with dropdown menu to re
 **Forms**   
 - A form that allows users to get in contact with the group for booking or information, by leaving their name and email address and the reason for contacting.   
 - A form that allows the user to sign up to the email newsletter of the group by leaving their name and email address. 
-	
-- **Google maps** to provide the user with a location of the group.  
+	 
 
 ## **Features left to implement**
 
-- A Search bar for user to search information more quick.  
-- The option to buy a song or album  
-- A blog  
+- A Search bar for users to search information more quickly.  
+- The option to buy a song or album.  
+- A blog.  
 - The option to pay directly.  
 - functional buttons/forms, pending on learning Javascript.
 
@@ -187,6 +187,7 @@ On mobile screens it collapses into a ‘burger icon’ with dropdown menu to re
 - [Git](https://git-scm.com/) was used version control.  
 - [GitHub](https://github.com/) for storing and deploying the website.  
 - [GitPod](https://www.gitpod.io/) for coding (IDE) the website.  
+- [Atom](https://atom.io/) for trying out code (IDE), due to limited usage time on gitpod.
 - [Google fonts](https://fonts.google.com/) for the fonts used in the website.  
 - [Font Awesome](https://fontawesome.com/) for the icons used on the website.  
 - [Hover.css](https://ianlunn.github.io/Hover/) was used for the hover effect on the navigation-links.  

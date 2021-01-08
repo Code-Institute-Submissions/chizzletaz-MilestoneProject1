@@ -74,6 +74,20 @@ See user story test 2 and 3.
 [W3C Markup Validation Service](https://validator.w3.org/) is used to check for markup validity of the web document, so to check that there are no errors in the HTML files.
 Running the code through the validation gives:
 
+1. Warning for an empty heading.  
+This was done to keep the height of the header the same for responsivenes, however that problem was solved in a later stage, so the heading can be removed.
+
+2. Two warnings that the document is not mappable to XML due to two consecutive hyphens.  
+The hyphens were added for better legibility, however this clashes with the commenting out syntax. The extra hyphens were removed.
+
+3. The section on line 185 lacks a heading.
+Semantics expect a section to have a heading. However this is not meant as a section. Section has been changed to div.
+
+4. Five messages that the alt attribute is not allowed on an < a > element.
+The alt attributes were removed.
+
+
+
 goal: circle border around social media icons:
 .list-inline-item {
     background-color: #6c757d;

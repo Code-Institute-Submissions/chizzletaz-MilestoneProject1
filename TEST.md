@@ -114,6 +114,10 @@ After these changes, except for the errors that I've left in deliberately in [ou
 Running the code throught the validator by direct input gives [no errors](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/CSS_validation.png).
 
 
+Validation with Lighthouse.
+
+
+
 
 
 goal: circle border around social media icons:

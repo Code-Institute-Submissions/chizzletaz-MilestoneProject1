@@ -336,6 +336,7 @@ small, .special {
 
 .list-inline-item i {
     color: #fff;
+    font-size: 18px;
 }
 
 .modal-title {
@@ -405,7 +406,7 @@ small, .special {
 }
 
 .portrait-img4 {
-    background-image: url('../img/portrait4.png');
+    background-image: url('../img/portrait4.jpg');
     background-size: cover;
     background-position: center;
     height: 100%;

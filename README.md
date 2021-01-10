@@ -121,6 +121,9 @@ has a a contact form for booking or inquiries. Below there is a section with gen
 
 link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/documents/Wireframes%20MSP1.pdf)  
 
+As you can see, the original wireframes deviate a bit from the end result. This is because during coding (and seeing the intermediate results) I’ve decided to change things regarding layout. 
+Other changes were made because my mentor suggested to change or add certain features, like Google maps.
+
 ## **Surface level**
 **Colors**  
 In order to get a calm, neat and stylish look, I've decided to keep the colours to black, grey and white with an accent-colour of #b8860b (an orange shade).   
@@ -134,6 +137,14 @@ In order to keep the overall style and feeling of the site calm, I decided to ma
 To give some sort of variety to the text, I've use Open Sans Condensed for the headers.  
 
 For the small text I've used 'Crimson text', a serif font.
+
+**Imagery**  
+The Home page has a black and white hero image of a microphone to attract the attention of the user and to show the website is music related.  
+On top of the image I have put a dark overlay to soften the image and make the text stand out even more. 
+
+The ‘About Us’ page has portrait images of the members of the groups. The images have a border with the same orange colour as the buttons, to tie the colour scheme together.  
+
+I’ve used alternating white and grey backgrounds to indicate a new section.  
 
 # **Features**
 
@@ -196,6 +207,9 @@ was used to debug and checking/testing the website.
 
 ## **Testing** 
 
+Due to the large size of the testing 
+See [TEST.md](https://github.com/chizzletaz/MilestoneProject1/blob/master/TEST.md) 
+
 ## **Deployment**
 
 To deploy this website to GitHub, I followed the these steps:
@@ -206,7 +220,7 @@ To deploy this website to GitHub, I followed the these steps:
 4. Under ‘Source’ you see the word ‘None’ with a dropdown menu: select ‘master branch’.
 5. Click ‘Save’, this will give you a URL of the website (see above ‘Source’).
 
-Local Clone:
+To make a Local Clone:
 1. Go to GitHub.com and on the left side click on the repository.
 2. Click on the ‘Code’ button.
 3. To clone using HTTPS, copy the link that is displayed.
@@ -267,6 +281,6 @@ All the copyrights belong the composers and/or the performers.
 
 
 ## Acknowledgements:  
-My mentor Antonio Rodriguez  
-Tutor support at CI  
+My mentor Antonio Rodriguez.  
+The tutors support at CI.  
 Jolanda Grutter for giving me tips on the design of my webpage.

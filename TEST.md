@@ -67,24 +67,20 @@ See user story test 2 and 3.
     2. Submit the form with an invalid email address and confirm a warning appears to use a correct email address.
     3. Submit the form with all the correct input and check that there are no warnings and the modal closes.
 
-## Testing responsiveness:
 
-### Code validation
+## Code validation
 
 [W3C Markup Validation Service](https://validator.w3.org/) is used to check for markup validity of the web document.
 Running the code through the validator gives:
-index.html: 
-1. Warning for an empty heading.  
-This was done to keep the height of the header the same for responsivenes, however that problem was solved in a later stage, so the heading can be removed.
-
-2. Two warnings that the document is not mappable to XML due to two consecutive hyphens.  
+index.html:
+1. Two warnings that the document is not mappable to XML due to two consecutive hyphens.  
 The hyphens were added for better legibility, however this clashes with the commenting out syntax. The extra hyphens were removed.
 
-3. Error: The section on line 185 lacks a heading.
+2. Error: The section on line 185 lacks a heading.
 Semantics expect a section to have a heading. However this is not meant as a section. Section has been changed to div.
 Since this occurs on all pages, this was also changed on the other pages.
 
-4. Error: Five messages that the 'alt' attribute is not allowed on an < a > element.
+3. Error: Five messages that the 'alt' attribute is not allowed on an < a > element.
 The alt attributes were removed. Since these were in the footer, these were also removed on the other pages.
 
 aboutus.html:
@@ -114,8 +110,23 @@ After these changes, except for the errors that I've left in deliberately in [ou
 Running the code throught the validator by direct input gives [no errors](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/CSS_validation.png).
 
 
-Validation with Lighthouse.
+## Validation with Lighthouse.
 
+## Testing across webbrowser:  
+I've tested the site on Safari, Chrome and Mozilla Firefox.
+
+## Testing responsiveness:
+I've tested the site with Chrome Dev Tools.
+There were no great issues for each of the mobiles and tablets available in Chrome Dev Tools.
+On the iPhone5/SE the caroussel-indicators are at the bottom of the button, but the button can still be clicked.
+On the galaxy fold (viewportwidth = 280px) the CTA is moved into the heading below. And some of the headings and the social media icons are wrapped to the line below.
+
+I also checked each responsive breakpoint stated by [Bootstrap](https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints).
+At the lowest breakpoint (576px) one of the social media icons moves to the nest line.
+I've resolved this by adjusting the col-sm size for both:  
+footers-signup: col-sm-6 -> col-sm-5. footer-social-links: col-sm-6 -> col-sm-7.
+
+## Bugs and Problems
 
 
 

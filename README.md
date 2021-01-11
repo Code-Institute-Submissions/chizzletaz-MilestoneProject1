@@ -1,12 +1,15 @@
 # **B-sharp - a professional Vocal Group**
+![website screenshot](assets/img/extra/website_screenshot.png)
+
+## A live version can be viewed [here](https://chizzletaz.github.io/MilestoneProject1/)
+
 ### *Code Institute Milestone Project 1* 
 
 This project is a frontend website for the fictitious vocal group “B-sharp”.  
 The main focus for the website is to get people to buy tickets for their concerts and to book the group for events.  
  
 The website provides information on upcoming concerts, on the group and its members and has some media samples. It also has the option buy tickets or to book the group for events.
-
-A live version of this website can be viewed [here](https://chizzletaz.github.io/MilestoneProject1/)   
+  
 &nbsp;  
 
 
@@ -96,8 +99,10 @@ I want the user to get feedback during their visit:
 - The user get's a feedback when an error as occured, like an image that can't be displayed.
 
 I’ve based the content requirements on the most likely path a first time user or event planner would take (navigation flow). That is: get to know more about the group (*About Us*) and their music (*Our Music*) and then get tickets for a show or book the group.
-Therefore the order in which the websites (and links) are presented is: 
+Therefore the order in which the websites (and links) are presented is:  
+
 **Home - About us - Our Music - Our Shows - Contact (dropdown menu with Book us)**  
+
 Taking the owner goals into account as well, I’ve opted for the 'Book Us' and 'Upcoming Shows'-section to be displayed first on the main page to ‘seduce’ the first time user/event planner into wanting more information. 
 &nbsp;  
 
@@ -120,9 +125,6 @@ has a a contact form for booking or inquiries. Below there is a section with gen
 **Wireframes:**
 
 link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/documents/Wireframes%20MSP1.pdf)  
-
-As you can see, the original wireframes deviate a bit from the end result. This is because during coding (and seeing the intermediate results) I’ve decided to change things regarding layout. 
-Other changes were made because my mentor suggested to change or add certain features, like Google maps.
 
 ## **Surface level**
 **Colors**  

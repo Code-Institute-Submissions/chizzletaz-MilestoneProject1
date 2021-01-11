@@ -9,9 +9,21 @@ This project is a frontend website for the fictitious vocal group “B-sharp”.
 The main focus for the website is to get people to buy tickets for their concerts and to book the group for events.  
  
 The website provides information on upcoming concerts, on the group and its members and has some media samples. It also has the option buy tickets or to book the group for events.
-  
-&nbsp;  
 
+***
+
+## Table of Contents
+- [UX](#user-experience-(ux))  
+	* [Strategic level](#strategic-level)  
+	* [Scope level](scope-level)  
+	* [Structure level](#structure-level)  
+	* [Skeleton level](#skeleton-level)  
+	* [Surface level](#surface-level)   
+    * [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
 
 ***
 
@@ -150,7 +162,7 @@ I’ve used alternating white and grey backgrounds to indicate a new section.
 
 # **Features**
 
-**Existing Features:** 
+## **Existing Features:** 
 
 - **Responsiveness** on all viewports, from mobile, to tablet to desktop.
 
@@ -188,7 +200,7 @@ On mobile screens it collapses into a ‘burger icon’ with dropdown menu to re
 - functional buttons/forms, pending on learning Javascript.
 
 
-## **Technologies used**
+# **Technologies used**
 
 **languages used**  
 - [HTML5](https://en.wikipedia.org/wiki/HTML) for markup  
@@ -207,12 +219,12 @@ On mobile screens it collapses into a ‘burger icon’ with dropdown menu to re
 - [Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
 was used to debug and checking/testing the website.  
 
-## **Testing** 
+# **Testing** 
 
 Due to the large size of the testing 
 See [TEST.md](https://github.com/chizzletaz/MilestoneProject1/blob/master/TEST.md) 
 
-## **Deployment**
+# **Deployment**
 
 To deploy this website to GitHub, I followed the these steps:
 
@@ -231,8 +243,8 @@ To make a Local Clone:
 6. A clone will be created locally.
 
 For more info on how to clone a repository check [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
-## **Credits**
-### Code
+# **Credits**
+## Code
 Changing the color of the carousel-indicators:
 [by Chris Gunawardena](https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel) 
 
@@ -247,10 +259,10 @@ Hover.css for the border of the navigation links on hover by [Ian Lunn](https://
 How to [embed Google maps](https://blog.duda.co/responsive-google-maps-for-your-website)
 
 
-### Content
+## Content
 All content is written by myself.
 
-### Media
+## Media
 **Images**  
 *Portrait images*  
 - portrait1 - Photo by Taylor Deas-Melesh on Unsplash  
@@ -282,7 +294,7 @@ All the copyrights belong the composers and/or the performers.
 - Duetto buffo di due gatto (Cat Duet) - composed by Gioachino Rossini - performed by Chichi Enu and Adriene Ivey
 
 
-## Acknowledgements:  
+# Acknowledgements:  
 My mentor Antonio Rodriguez.  
 The tutors support at CI.  
 Jolanda Grutter for giving me tips on the design of my webpage.

@@ -84,7 +84,7 @@ Since this occurs on all pages, this was also changed on the other pages.
 The alt attributes were removed. Since these were in the footer, these were also removed on the other pages.
 
 aboutus.html:
-No erors or warnings are shown.
+No errors or warnings are shown.
 ourmusic.html:
 1. Four errors: a bad value (100%) for 'width' on element iframe. A digit is expected, but a % is used. 
 This is done to display the audio file correctly and to keep it responsive.
@@ -116,7 +116,7 @@ No big issues arrose. The only small changes between websites it that they somet
 For instance on Safari, if you click/select a dropdown-link, the browser adds an extra blue border.
 
 ## Testing responsiveness:
-I've tested the site with Chrome Dev Tools.
+I've tested the site using Chrome Dev Tools and [Responsinator](https://www.responsinator.com/)
 There were no great issues for each of the mobiles and tablets available in Chrome Dev Tools.
 On the iPhone5/SE the caroussel-indicators are at the bottom of the button, but the button can still be clicked.
 On the galaxy fold (viewportwidth = 280px) the CTA is moved into the heading below. And some of the headings and the social media icons are wrapped to the line below.

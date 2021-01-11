@@ -476,6 +476,7 @@ small, .special {
 .audio-title, .video-title {
     font-size: 20px;
     font-style: italic;
+    word-wrap: break-word;
 }
 
 .audio-player:active {

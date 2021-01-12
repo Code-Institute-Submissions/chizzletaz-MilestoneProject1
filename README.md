@@ -141,7 +141,7 @@ link to [wireframes](https://github.com/chizzletaz/MilestoneProject1/blob/master
 ## **Surface level**
 **Colors**  
 In order to get a calm, neat and stylish look, I've decided to keep the colours to black, grey and white with an accent-colour of #b8860b (an orange shade).   
-![colors used](assets/img/extra/color-codes.png)
+![colors used](assets/img/extra/color_codes.png)
 
 **Fonts**  
 For the logo I've chosen the 'Architects Daughter' typeface, because it is a handwritten typeface. This gives a more unique feeling to the logo.  

@@ -1,71 +1,66 @@
 # Testing
+## Table of Contents
+[User stories testing](#user-stories-testing)  
+[Code Validation](#code-validation)  
+[Testing across web browsers](#testing-across-web-browsers)  
+[Testing Responsiveness](#testing-responsiveness)  
+[Bugs and Problems](#bugs-and-problems)  
+***
+
 ## User stories testing:	
 ### First time users:
 
 **1. As a first time user, I want to navigate easily across the website.**  
-- *Navigation:*  
-    1. On desktop: adjust screen width to see if the navigation menu collapses into a hamburger icon.  
-    2. Click on all the navigation links to check if it takes you to the correct page.  
-    3. Click on all the buttons on the home page to check if they take you to the correct page.
+1. The website has a responsive navigation bar that takes the user to all the other pages. On smaller screens the navigation bar collapses to a hamburger icon.  
+2. The home page is an overview of the other pages, in each of the sections there are buttons that lead the user to the respective pages.  
+3. At the bottom of each page there is an icon with text that, when clicked, leads to the top of the page.
+4. Clicking on the logo takes the user back to the home page.
 
 
 **2. As a first time user I want to find information about the group and its members, so i can get to know the group better.**  
-- *About Us:*  
-    1. Scroll down to the ‘About Us’ section on the Home page and click on the ‘here’ button to check if it takes you to the ‘About Us’ page.  
-    2. Use the navbar and click on to go to the ‘About Us’ link and check if it takes you to the ‘About Us’ page. 
-    3. Scroll down to the footer and click on each of the links to the social media accounts of the group and check if they open up in a new tab and take you to the correct social media website.
+1. The user can use the navigation bar and click on ‘About Us’ or scroll down to the ‘About Us’ section on the Home page and click on the ‘full biography’ button, which takes them to the ‘About Us’ page.
+2. In the footer of each page are links to the social media accounts of the group. 
+3. When users click these links, a new tab opens and lead to the respective social media website.
 
 **3. As a first time user I want to hear some of the recordings, to see whether I like the group’s music.**  
-- *Our Music:*  
-    1. Scroll down to the ‘Our Music’ section on the Home page and click on the ‘here’ button to check if it takes you to the ‘Our Music’ page.   
-    2. Use the navbar and click on the ‘Our Music’ link and check if it takes you to the ‘Our Music’ page.  
+1. Users can use the navbar and click on the ‘Our Music’ link or they can scroll down to the ‘Our Music’ section on the Home page and click on the ‘our music’ button. This takes them to the ‘Our Music’ page. 
+2. On the ‘Our Music’ page are several audio and video files that the user can listen to and watch.
+3. The audio and video files have controls, so the user can play or pause a file. The video files also have a volume control.
+4. Two of the social media links in the footer are links to Youtube and Spotify. Here the user can listen to more music and watch more videos.
 
-- *embedded audio and video*:
-    1. Check each audio and video file if they are playing.  
-    2. Check if the controls are responding (play/pause).  
-    3. Scroll down to the footer and check if the Youtube and Spotify icon open a new tab and take you to YouTube and Spotify respectively.
+Returning/regular users:
 
-### Returning/regular users:
+**4. As a user I want to follow the group, so I stay up to date with the latest news on what they do.**  
+1. On the bottom of each page, in the footer, the user can click on the ‘Signup for our newsletter’ button. This will open a modal where the user can subscribe to the newsletter of the group.
+2. Submitting an empty form will give a warning for the required fields.
+3. Submitting the form with an invalid email address will also give a warning to use a correct email address.
+4. When a user submits the form with all the correct, there are no warnings and the modal closes.
+5. Each page has links to the social media accounts of the group. Clicking on a link opens a new tab and takes you to the corresponding social media website.
 
-**4. As a user I want to follow the group, so I stay up to date with the latest news on what they do.**
-- *Subscribe to newsletter:*
-    1. Scroll down to the footer. 
-    2. Click on the ‘Signup for our newsletter’ button. This will open a modal where the user can subscribe to the newsletter of the group.  
-    3. Submit the empty form and confirm a warning appears for required fields.
-    4. Submit the form with an invalid email address and confirm a warning appears to use a correct email address.
-    5. Submit the form with all the correct input and check that there are no warnings and the modal closes.
-- *Social media icons and links:*
-    1. Click on each of the links to the social media accounts of the group and check if they open up in a new tab and take you to the correct social media website.
+**As a user I want to find information on concerts, so I can see when and where they are.**  
+1. Users can use the navbar and click on the ‘Our Shows’ link or they can scroll down to ‘Upcoming Shows’ on the Home page and click the ‘Get Tickets’ button. 
+2. This takes them to the ‘Our Shows’ page where the user can find the information about upcoming shows of the group.
 
-**As a user I want to find information on concerts, so I can see when and where they are.**
-- *Our Shows:*
-    1. croll down to ‘Upcoming Shows’ on the Home page and click the ‘Get Tickets’ button to check if it takes you to the ‘Our Shows’ page. 
-    2. Use the navbar and click on the ‘Our Shows’ link and check if it brings you to the ‘Our Shows’ page.
-
-**5. As a user I want to be able to buy tickets for their concerts.**
-- *Our shows:*
-    1. Go to the ‘Our Shows’ page (see above). 
-- *Buy tickets modal and form:*
-    1. Click on the ‘Buy Tickets’-button to check if the modal for buy tickets for upcoming shows pops up.
-    2. Select a number of tickets and check if the select box works.
+**5. As a user I want to be able to buy tickets for their concerts.**  
+1. The user can go to the ‘Our Shows’ page (see above) and click on the ‘Buy Tickets’-button to buy tickets for upcoming shows.
+2. There they can select the number of tickets they want to buy.
 
 **6. As a user I want the option of buying a song or album.**  
+
 This feature is not implemented and is tagged as a feature left to implement. (see Scope level)
 
-### Event planners:
+Event planners:
 
 **7. As an event planner I want to learn more about the group and listen to some material, so I can decide whether or not to book the group for an event.**  
+
 See user story test 2 and 3.
 
 **8. As an event planner I want to contact the group (by email or by phone), so I can get more information or book them for an event.**  
-- *Book Us button:*  
-    1. On the Home page click on the ‘Book Us’ button to check if it takes you to the ‘Contact’ page.
-- *Contact page:*
-    1. Use the navbar and click on the ‘Contact’ link and then on the ‘Book Us’ link and check if it takes you to the ‘Book Us’ section on the ‘Contact’ page.
-- *Book us form:*
-    1. Submit the empty form and confirm a warning appears for required fields.
-    2. Submit the form with an invalid email address and confirm a warning appears to use a correct email address.
-    3. Submit the form with all the correct input and check that there are no warnings and the modal closes.
+1. The Home page has a clear ‘Book Us’ button that takes you to the ‘Contact’ page.
+2. A user van also use the navbar and click on the ‘Contact’ link and then on the ‘Book Us’ link to go to the ‘Contact’ page.
+3. There they can fill out a form for booking or inquires.
+4. When the user submits the form with an invalid email address, a warning appears to use a correct email address.
+5. When the form is submitted with all the correct input, there are no warnings and the modal closes.
 
 
 ## Code validation
@@ -115,34 +110,20 @@ I've tested the site on Safari, Chrome and Mozilla Firefox.
 No big issues arrose. The only small changes between websites it that they sometimes add their own styling. 
 For instance on Safari, if you click/select a dropdown-link, the browser adds an extra blue border.
 
-## Testing responsiveness:
-I've tested the site using Chrome Dev Tools and [Responsinator](https://www.responsinator.com/)
+## Testing Responsiveness:
+I've tested the site using [Chrome Dev Tools](https://github.com/chizzletaz/MilestoneProject1/blob/master/assets/img/extra/responsiveness_chrome_dev_tools.png) and [Responsinator](https://www.responsinator.com/)
 There were no great issues for each of the mobiles and tablets available in Chrome Dev Tools.
 On the iPhone5/SE the caroussel-indicators are at the bottom of the button, but the button can still be clicked.
 On the galaxy fold (viewportwidth = 280px) the CTA is moved into the heading below. And some of the headings and the social media icons are wrapped to the line below.
 
 I also checked each responsive breakpoint stated by [Bootstrap](https://getbootstrap.com/docs/4.3/layout/overview/#responsive-breakpoints).
-At the lowest breakpoint (576px) one of the social media icons moves to the nest line.
+At the lowest breakpoint (576px) one of the social media icons moves to the next line.
 I've resolved this by adjusting the col-sm size for both:  
 footers-signup: col-sm-6 -> col-sm-5. footer-social-links: col-sm-6 -> col-sm-7.
 
 ## Bugs and Problems
 
-- I had a problem when applying a circle border around social media icons:
-the icons weren't centered: ![uncentered icons](assets/img/test/icon border 1.png)
-It turns out that I have to put ‘text align’ after ‘border-radius’ for ‘test align’ to work.
-This align the icons horizontally. Adding a padding centered the icons vertically.
+All  bugs and probems that i've encountered are already addressed in the previous sections.
 
-- The card heights, on the home page in the ‘Upcoming Shows’ section, aren't equal. 
-Adding h-100 to the card (according to bootstrap), solves the equal length, but the cards are now outside of the container. So I adjusted the text so that each card has the same amount of text-lines.
-
-- On the ‘About Us’ page, I couldn't get the div with the text about the member next to the div with the image of the member.
-I forgot to add another row to make the div's sit next to each other.
-
-- When loading the ‘Our Music’ page, the video starts playing automatically.
-By replacing the iframe tag with video tag the problem is solved.
-
-- The images on the 'Our Shows' page weren't nicely placed in the card. There was a whitespace below the images.
-Adding 'align-items-center' to the rows, centered the images vertically.
 
 

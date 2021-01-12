@@ -142,7 +142,7 @@ I forgot to add another row to make the div's sit next to each other.
 - When loading the ‘Our Music’ page, the video starts playing automatically.
 By replacing the iframe tag with video tag the problem is solved.
 
-
-
+- The images on the 'Our Shows' page weren't nicely placed in the card. There was a whitespace below the images.
+Adding 'align-items-center' to the rows, centered the images vertically.
 
 

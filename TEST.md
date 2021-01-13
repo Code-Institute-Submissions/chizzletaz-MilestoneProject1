@@ -123,7 +123,24 @@ footers-signup: col-sm-6 -> col-sm-5. footer-social-links: col-sm-6 -> col-sm-7.
 
 ## Bugs and Problems
 
-All  bugs and probems that i've encountered are already addressed in the previous sections.
+I have started testing with Lighthouse.  
+Lighthouse is used to test issues referring to performance, accessibility, best practice and SEO (Search Engine Optimisation).  
+
+I’ve tested every page on mobile and desktop device. Scores of 90 or more are flagged green by Lighthouse, so I’ve only looked at the scores below 90 and tried to address these issues.  
+
+However, Lighthouse sometimes gives different values if you check the page without making any change to it. 
+I also didn’t understand or was able to change some of the issues indicated by Lighthouse.  
+
+I asked a tutor at CI about Lighthouse and they said that Lighthouse isn’t required. It’s not covered in the course and can be pretty massive in scope. So I’ve decided to drop this section from the testing part. 
+
+However, I already made some changes to my code, which I left in.
+Some of the changes are:
+
+- Reduce the size of images I've used. 
+- Adding ‘rel=“noopener”’ to all links that open in a new tab, because links to cross-origin destinations are unsafe.
+- Adding a <meta> element with a descriptive link inside the <head> element of each page.
+
+All other bugs and probems that i've encountered are already addressed in the previous sections.
 
 
 

@@ -295,6 +295,7 @@ All the copyrights belong the composers and/or the performers.
 
 
 # Acknowledgements:  
-My mentor Antonio Rodriguez.  
-The tutors support at CI.  
+My mentor Antonio Rodriguez for guiding my through this first project and giving valuable tips.
+The tutors support at CI for answering my questions.
+The Slack members for answering my questions and peer-reviewing this project.
 Jolanda Grutter for giving me tips on the design of my webpage.
